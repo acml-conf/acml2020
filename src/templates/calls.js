@@ -3,6 +3,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import { Link } from "gatsby"
 
+import { DESKTOP_MIN_WIDTH, media } from "../style"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -43,11 +44,13 @@ export default function Template({
   <br/>
   <div css={{position: `relative`}}>
     <div css={{
-      float: `left`,
-      maxWidth: `200px`,
-      marginRight: `50px`,
-      left: 0,
-      position: `absolute`
+      [media(DESKTOP_MIN_WIDTH)]: {
+        float: `left`,
+        maxWidth: `200px`,
+        marginRight: `50px`,
+        left: 0,
+        position: `absolute`
+      }
     }}>
       <div>
         <b>Sections</b>
@@ -62,7 +65,11 @@ export default function Template({
         </ul>
       </div>
     </div>
-    <div css={{marginLeft: `250px`}}>
+    <div css={{
+        [media(DESKTOP_MIN_WIDTH)]: {
+          marginLeft: `250px`
+        }
+      }}>
       {frontmatter.requireDate}
       <h1>{frontmatter.title}</h1>
       { frontmatter.requireDate && 
