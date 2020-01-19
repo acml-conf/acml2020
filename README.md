@@ -5,7 +5,7 @@
 
 ## Environments
 - Staging: https://thirsty-cori-5d6045.netlify.com
-- Production: 
+- Production: N/A
 
 ## Acknowledgements
 This is built on Gatsby.
