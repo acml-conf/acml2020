@@ -1,5 +1,16 @@
 [
     {
+        "key": "call-information",
+        "section": "Information",
+        "events": []
+    },
+    {
+        "key": "call-submissions",
+        "section": "submissions",
+        "events": []
+    },
+    {
+        "key": "call-conference-track",
         "section": "Conference Track",
         "events": [
             {
@@ -21,6 +32,7 @@
         ]
     },
     {
+        "key": "call-journal-track",
         "section": "Journal Track",
         "events": [
             {

@@ -9,6 +9,9 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+
 import Header from "./header"
 import "./layout.css"
 import BeautifulLink from "./link"
@@ -38,7 +41,10 @@ const Layout = ({ children }) => {
         <main>{children}</main>
       </div>
       <footer css={{background: `black`, color: `white`, padding: `2em 0`}}>
-        <div css={{maxWidth: 1024, margin: `0 auto`}}>
+        <div css={{maxWidth: 1024, margin: `0 auto`, padding: "0 10px"}}>
+          <div css={{fontSize: `1em`, marginBottom: `10px`}}>
+            <b>Follow us:</b> <BeautifulLink to="https://github.com/heytitle/acml2020" color="white"><FontAwesomeIcon icon={faGithub}/></BeautifulLink> 
+          </div>
         © {new Date().getFullYear()} ACML, Built with
         {` `}
         <BeautifulLink color="white" to="https://www.gatsbyjs.org">Gatsby</BeautifulLink>

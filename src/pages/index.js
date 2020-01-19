@@ -6,20 +6,9 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import CoverImg from "../components/coverimg"
 
-import dates from "../content/dates"
+import DateSection from "../components/datesection"
 
-const DateSection = ({name, events}) => {
-  return <div>
-    <h3>{name}</h3>
-    <ul css={{marginLeft: 0}}>
-      {
-        events.map(e => {
-          return <li css={{listStyle: `none`, margin: 0}}>{e.date}: <b>{e.event}</b></li>
-        })
-      }
-    </ul>
-  </div>
-}
+import dates from "../content/dates"
 
 const IndexPage = () => {
   const { allMarkdownRemark } = useStaticQuery(
@@ -40,7 +29,6 @@ const IndexPage = () => {
   )
 
   const welcomeMSG = allMarkdownRemark.edges[0].node.html
-  console.log(dates)
 
   return <Layout>
     <SEO title="Home" />
