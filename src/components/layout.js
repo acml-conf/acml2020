@@ -8,6 +8,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import { config } from "@fortawesome/fontawesome-svg-core";
+
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
@@ -15,6 +17,8 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import Header from "./header"
 import "./layout.css"
 import BeautifulLink from "./link"
+
+config.autoAddCss = false;
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
