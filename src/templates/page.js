@@ -7,7 +7,7 @@ export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
-  const { frontmatter, html, tableOfContents } = markdownRemark
+  const { frontmatter, html } = markdownRemark
 
   return <Layout>
     <SEO title={`${frontmatter.title}`}/>

@@ -1,6 +1,8 @@
 ---
 content_id: call-conference-track
 title: Conference Track
+path: /calls/conference-track
+requireDate: true
 ---
 
 

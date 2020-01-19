@@ -43,10 +43,10 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: `gatsby-plugin-create-client-paths`,
-      options: { prefixes: [`/calls/*`, `/programs/*`] },
-    },
+    // {
+    //   resolve: `gatsby-plugin-create-client-paths`,
+    //   options: { prefixes: [`/calls/*`, `/programs/*`] },
+    // },
 
     // {
     //   resolve: `gatsby-plugin-google-fonts`,

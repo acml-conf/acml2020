@@ -1,6 +1,7 @@
 ---
 content_id: call-submissions
 title: Paper Submissions
+path: /calls/submissions
 ---
 
 

@@ -1,6 +1,8 @@
 ---
 content_id: call-journal-track
 title: Journal Track
+path: /calls/journal-track
+requireDate: true
 ---
 
 In addition to the Conference Track, the Asian Conference on Machine Learning will be running a Journal Track. In order to ensure an efficient reviewing process, we encourage submissions of papers up to 20 pages. Papers that are accepted to the journal track must be presented at the conference in order to be published.

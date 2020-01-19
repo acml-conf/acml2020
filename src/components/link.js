@@ -1,5 +1,4 @@
-import {Link} from "gatsby"
-import React, { Children } from "react"
+import React from "react"
 
 const BeautifulLink = ({to, children, color=`black`}) => {
     return <a href={to}

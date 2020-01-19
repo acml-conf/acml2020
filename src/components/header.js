@@ -43,7 +43,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          <b>{siteTitle} 🇹🇭</b>
+          <b>{siteTitle} <span role="img">🇹🇭</span></b>
         </BeautifulLink>
         <ul css={{listStyle: `none`, display: `inline`, float: `right`}}>
           <Location>
