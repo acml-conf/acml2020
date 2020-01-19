@@ -1,0 +1,48 @@
+[
+    {
+        "section": "Conference Track",
+        "events": [
+            {
+                "event": "Submission Deadline",
+                "date": "June 15, 2020"
+            },
+            {
+                "event": "Author Rebuttal",
+                "date": "Jule 20-August 3, 2020"
+            },
+            {
+                "event": "Notification (Accept or Reject)",
+                "date": "August 12, 2020"
+            },
+            {
+                "event": "Camera-Ready Submission Deadline",
+                "date": "August 31, 2020"
+            }
+        ]
+    },
+    {
+        "section": "Journal Track",
+        "events": [
+            {
+                "event": "Submission Deadline",
+                "date": "April 15, 2020"
+            },
+            {
+                "event": "1st round review results (accept, minor revision, or reject)",
+                "date": "Jule 1, 2020"
+            },
+            {
+                "event": "Revised manuscript submission deadline",
+                "date": "July 15, 2020"
+            },
+            {
+                "event": "Notification",
+                "date": "August 30, 2020"
+            },
+            {
+                "event": "Camera-Ready Submission Deadline",
+                "date": "September 15, 2020"
+            }
+        ]
+    }
+]
