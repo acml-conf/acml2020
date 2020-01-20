@@ -1,10 +1,13 @@
 import BeautifulLink from "../components/link"
 import PropTypes from "prop-types"
-import React from "react"
+import React, { useState } from "react"
 
 import { DESKTOP_MIN_WIDTH, media } from "../style"
 
 import { Location } from '@reach/router'
+
+import { HamburgerButton } from 'react-hamburger-button';
+
 
 const menus = [
   { name: `Program`, url: `/program`},
@@ -25,8 +28,10 @@ const HeaderLink = ({children, to, location}) => {
 }
 
 
-const Header = ({ siteTitle }) => (
-  <header
+const Header = ({ siteTitle }) => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
+
+  return <header
     css={{
       borderBottom: `solid #ddd 1px`
     }}
@@ -50,27 +55,31 @@ const Header = ({ siteTitle }) => (
         <ul css={{
           listStyle: `none`, 
           display: `inline-block`,
-          width: `100%`,
           padding: 0,
           margin: 0,
           fontSize: `0.9em`,
           textAlign: `center`,
-          marginTop: `10px`,
+          float: `right`,
           [media(DESKTOP_MIN_WIDTH)]: {
             width: `auto`,
             display: `inline`,
             marginTop: 0,
-            float: `right`,
             fontSize: `1em`,
           }
         }}>
           <Location>
             {({ location }) => {
               return menus.map( (m, i) => {
-                return <li css={{
-                  margin: `5px`,
-                  display: `inline`,
-                  }}>
+                return <li
+                  css={{
+                    margin: `5px`,
+                    display: i === 0 ? `inline`: `none`,
+                    [media(DESKTOP_MIN_WIDTH)]: {
+                      display: `inline`
+                    }
+                  }}
+                  key={m.url}
+                  >
                   <HeaderLink location={location} to={m.url}>
                     <BeautifulLink to={m.url}>{m.name}</BeautifulLink>
                   </HeaderLink>
@@ -84,11 +93,57 @@ const Header = ({ siteTitle }) => (
                 display: `none`, 
               }
             }}>
+              <span css={{marginLeft: `5px`, '& div': { display: `inline-block`}}}>
+                <HamburgerButton
+                    open={isMenuOpen}
+                    onClick={() => setIsMenuOpen(!isMenuOpen)}
+                    width={18}
+                    height={15}
+                    strokeWidth={2}
+                    rotate={0}
+                    color='black'
+                    borderRadius={0}
+                    animationDuration={0.5}
+                />
+              </span>
             </li>
         </ul>
     </div>
+    { isMenuOpen &&
+      <div css={{
+          position: `absolute`,
+          background: `#F7F7F7`,
+          borderLeft: `1px solid #ddd`,
+          right: 0,
+          width: `60%`,
+          height: `100%`,
+          zIndex: 1000
+        }}>
+          <div css={{padding: `10px`}}>
+            <ul>
+              <Location>
+                {({ location }) => {
+                  return menus.map( (m, i) => {
+                    return <li
+                      css={{
+                        margin: `5px`,
+                        display: `block`,
+                      }}
+                      key={m.url}
+                      >
+                      <HeaderLink location={location} to={m.url}>
+                        <BeautifulLink to={m.url}>{m.name}</BeautifulLink>
+                      </HeaderLink>
+                    </li>
+                  })
+                }}
+              </Location>
+            </ul>
+          </div>
+      </div>
+    }
   </header>
-)
+}
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
