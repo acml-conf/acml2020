@@ -1,6 +1,9 @@
 name: CI
 
-on: [push]
+on: 
+  push:
+    branches:
+      - master
 
 jobs:
   build:
@@ -19,4 +22,23 @@ jobs:
         url: https://thirsty-cori-5d6045.netlify.com
         threshold: 90
         strategy: Desktop
-
+    - name: Use Node.js 12.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+    - name: Build Project
+      run: |
+        npm install
+        npm i -g gatsby
+        gatsby build --prefix-paths
+    - name: List output files
+      run: ls ./public 
+    - name: FTP-Deploy-Action
+      uses: SamKirkland/FTP-Deploy-Action@2.0.0
+      env:
+        FTP_SERVER: ${{ secrets.FTP_SERVER }}
+        FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+        FTP_PASSWORD: ${{ secrets.FT_PASSWORD }}
+        LOCAL_DIR: public
+        REMOTE_DIR: 2020
+        ARGS: --verbose
