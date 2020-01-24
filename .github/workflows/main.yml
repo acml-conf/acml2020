@@ -34,7 +34,7 @@ jobs:
     - name: List output files
       run: ls ./public 
     - name: FTP-Deploy-Action
-      uses: heytitle/FTP-Deploy-Action@master
+      uses: heytitle/FTP-Deploy-Action@0.0.1
       env:
         FTP_SERVER: ${{ secrets.FTP_SERVER }}
         FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
