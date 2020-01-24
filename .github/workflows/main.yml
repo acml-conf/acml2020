@@ -26,6 +26,7 @@ jobs:
     - name: Build Project
       run: |
         npm install
+        npm i -g gatsby
         gatsby build
         
     - name: List output files
