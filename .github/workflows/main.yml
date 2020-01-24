@@ -19,4 +19,14 @@ jobs:
         url: https://thirsty-cori-5d6045.netlify.com
         threshold: 90
         strategy: Desktop
-
+    - name: Use Node.js 12.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+    - name: Build Project
+      run: |
+        npm install
+        gatsby build
+        
+    - name: List output files
+      run: ls ./public
