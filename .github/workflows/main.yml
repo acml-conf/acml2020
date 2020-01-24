@@ -30,7 +30,15 @@ jobs:
       run: |
         npm install
         npm i -g gatsby
-        gatsby build
-        
+        gatsby build --prefix-paths
     - name: List output files
-      run: ls ./public
+      run: ls ./public 
+    - name: FTP-Deploy-Action
+      uses: SamKirkland/FTP-Deploy-Action@2.0.0
+      env:
+        FTP_SERVER: ${{ secrets.FTP_SERVER }}
+        FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+        FTP_PASSWORD: ${{ secrets.FT_PASSWORD }}
+        LOCAL_DIR: public
+        REMOTE_DIR: 2020
+        ARGS: --verbose
