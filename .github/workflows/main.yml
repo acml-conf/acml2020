@@ -34,11 +34,11 @@ jobs:
     - name: List output files
       run: ls ./public 
     - name: FTP-Deploy-Action
-      uses: SamKirkland/FTP-Deploy-Action@2.0.0
+      uses: heytitle/FTP-Deploy-Action@master
       env:
         FTP_SERVER: ${{ secrets.FTP_SERVER }}
         FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
         FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
         LOCAL_DIR: public
         REMOTE_DIR: 2020
-        ARGS: --verbose --parallel=10
+        ARGS: ftp:passive-mode false; --verbose --parallel=10
