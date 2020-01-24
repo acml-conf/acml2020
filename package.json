@@ -41,7 +41,7 @@
   "scripts": {
     "release": "npm run build && npm run deploy",
     "build": "gatsby build --prefix-paths",
-    "deploy": "source .ftp_setting && lftp -e 'set ftp:passive-mode off; mirror --parallel=10 --verbose -R ./public 2020' -u $FTP_USERNAME ftp://acml-conf.org",
+    "deploy": "source .ftp_setting && lftp -e 'set ftp:passive-mode off; mirror --parallel=10 -p --verbose -R ./public 2020; quit' -u $FTP_USERNAME ftp://acml-conf.org",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
