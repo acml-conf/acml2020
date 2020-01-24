@@ -38,7 +38,7 @@ jobs:
       env:
         FTP_SERVER: ${{ secrets.FTP_SERVER }}
         FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
-        FTP_PASSWORD: ${{ secrets.FT_PASSWORD }}
+        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
         LOCAL_DIR: public
         REMOTE_DIR: 2020
         ARGS: --verbose
