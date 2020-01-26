@@ -9,6 +9,7 @@ import SEO from "../components/seo"
 
 import dates from "../content/dates"
 import DateSection from "../components/datesection"
+import { replacePathPrefixHTML } from "../utils";
 
 const sections = [
   {
@@ -38,6 +39,8 @@ export default function Template({
 }) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
+
+  const htmlWithPathPrefix = replacePathPrefixHTML(html)
 
   return <Layout>
   <SEO title="Calls"/>
@@ -78,7 +81,7 @@ export default function Template({
           <DateSection events={dates.filter(d => d.slug === frontmatter.path)[0].events}></DateSection>
         </div>
       }
-      <div dangerouslySetInnerHTML={{__html: html}}/>
+      <div dangerouslySetInnerHTML={{__html: htmlWithPathPrefix}}/>
     </div>
   </div>
 </Layout>

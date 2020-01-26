@@ -6,10 +6,10 @@ title: ""
 ## Supporting Organizations
 
 <div align="center">
-    <img title="Artificial Intelligence Association Of Thailand" width="200px" src="/logos/aiat.png"/>
-    <img title="Sirindhorn International Institute of Technology" width="200px" src="/logos/siit.png"/>
-    <img title="Thammasat University" width="200px" src="/logos/tu.png"/>
-    <img title="Chulalongkorn University" width="200px" src="/logos/cu.png"/>
+    <img title="Artificial Intelligence Association Of Thailand" width="200px" src="pathPrefix::logos/aiat.png"/>
+    <img title="Sirindhorn International Institute of Technology" width="200px" src="pathPrefix::logos/siit.png"/>
+    <img title="Thammasat University" width="200px" src="pathPrefix::logos/tu.png"/>
+    <img title="Chulalongkorn University" width="200px" src="pathPrefix::logos/cu.png"/>
 </div>
 
 ## Organizing Committees
