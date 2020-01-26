@@ -2,12 +2,15 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo";
+import { replacePathPrefixHTML } from "../utils";
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
+
+  const htmlWithPathPrefix = replacePathPrefixHTML(html)
 
   return <Layout>
     <SEO title={`${frontmatter.title}`}/>
@@ -16,7 +19,7 @@ export default function Template({
     <div
       css={{marginTop: "50px"}}
       className="blog-post-content"
-      dangerouslySetInnerHTML={{ __html: html }}
+      dangerouslySetInnerHTML={{ __html: htmlWithPathPrefix }}
     />
   </Layout>
 }
