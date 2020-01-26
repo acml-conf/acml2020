@@ -12,5 +12,13 @@
 
 **Note**: Each PR will also be automatically built by Netlify.
 
+
+## How to Release to Production
+Currently, release has to be done locally.
+1. Make sure that local master branch is up to date.
+2. Make sure that no development server is running.
+2. Make sure that you have set `.fpt_setting`'s content properly. Please see [an example](https://gist.github.com/heytitle/e1e77020892b0092c5600c99243217de).
+3. Run `npm run release`. You have to type the FTP password manually.
+
 ## Acknowledgements
 This is built on Gatsby.
