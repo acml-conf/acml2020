@@ -23,14 +23,19 @@ config.autoAddCss = false;
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
+    query {
       site {
         siteMetadata {
           title
         }
       }
+      currentBuildDate {
+        currentDate
+      }
     }
   `)
+
+  console.log(data)
 
   return (
     <div css={{fontFamily: `sans-serif`}}>
@@ -55,12 +60,13 @@ const Layout = ({ children }) => {
               }
             }}>
             <b>Follow us:</b> <BeautifulLink to="https://github.com/heytitle/acml2020" color="white"><FontAwesomeIcon icon={faGithub}/></BeautifulLink> 
+            <div css={{fontSize: "0.8em", color:"gray"}}>Last updated: {data.currentBuildDate.currentDate}</div>
           </div>
         © {new Date().getFullYear()} ACML, Built with
         {` `}
         <BeautifulLink color="white" to="https://www.gatsbyjs.org">Gatsby</BeautifulLink>.
         <br/>
-        Layout and design inspired by <BeautifulLink color="white" to="https://acl2020.org">ACL2020's webiste</BeautifulLink>.
+        Layout and design inspired by <BeautifulLink color="white" to="https://acl2020.org">ACL2020's website</BeautifulLink>.
         </div>
       </footer>
     </div>

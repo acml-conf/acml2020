@@ -44,6 +44,15 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-build-date`,
+      options: {
+        formatting: {
+          format: 'DD/MM/YYYY', // string, defaults to "MM/DD/YYYY" - pass in any acceptable date-and-time format
+          utc: true, // boolean, defaults to false - output time as UTC or not, following date-and-time API
+        },
+      },
+    },
     // {
     //   resolve: `gatsby-plugin-create-client-paths`,
     //   options: { prefixes: [`/calls/*`, `/programs/*`] },
