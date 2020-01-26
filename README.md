@@ -5,8 +5,12 @@
 - NodeJS v11.4.0 or higher
 
 ## Environments
-- Staging: https://thirsty-cori-5d6045.netlify.com
-- Production: N/A
+| Environment  | URL |
+|:-------------:|:-------------:|
+| Staging | https://thirsty-cori-5d6045.netlify.com |
+| Production | http://www.acml-conf.org/2020/ |
+
+**Note**: Each PR will also be automatically built by Netlify.
 
 ## Acknowledgements
 This is built on Gatsby.
