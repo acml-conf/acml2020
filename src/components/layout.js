@@ -35,8 +35,6 @@ const Layout = ({ children }) => {
     }
   `)
 
-  console.log(data)
-
   return (
     <div css={{fontFamily: `sans-serif`}}>
       <Header siteTitle={data.site.siteMetadata.title} />
