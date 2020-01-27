@@ -24,10 +24,6 @@ const sections = [
     name: `Journal Track`,
     slug: `/calls/journal-track`
   },
-  {
-    name: `Submissions`,
-    slug: `/calls/submissions`
-  },
   // {
   //   name: `Tutorials`,
   //   slug: `tutorials`

@@ -5,15 +5,6 @@ path: /calls/conference-track
 requireDate: true
 ---
 
+Manuscripts must be written in English, be a maximum of 16 pages (including references, appendices etc.) and follow the PMLR style. If required, supplementary material may be submitted as a separate file, but reviewers are not obliged to consider this. The latex format is preferable. All conference track submissions must be anonymized. Submissions that are not anonymized, over-length, or not in the correct format will be rejected without review. It is not appropriate to submit papers that are substantially similar to versions that have been previously published, or accepted for publication, or that have been submitted in parallel to other conferences or journals.
 
-## First round 
-**submission deadline: April 13, 2020**
-
-The 1st round decision will be either: "Accept", "Reject", or "Encourage to Resubmission to 2nd round". A paper with an "Encourage to Resubmission to 2nd round" decision can be re-submitted to 2nd round with a cover letter describing the changes and the responses to the review comments. The resubmitted paper will be reviewed by the same reviewers. There is no author rebuttal phase in this round.
-
-## Second round
-
-**submission deadline: July 13, 2020**
-
-The 2nd round has the more usual Accept or Reject decisions with an author rebuttal phase.
-Note: Papers can be newly submitted to conference track 2nd round regardless of the submission to the 1st round.
+However, submission is permitted for papers presented or to be presented at conferences or workshops without proceedings, or with only abstracts published. Also, submission is permitted for papers that are available as a technical report (e.g. in arXiv) as long as it is not cited in the submission.
