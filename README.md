@@ -4,6 +4,9 @@
 ## Development
 - NodeJS v11.4.0 or higher
 
+### Backlog
+Currently, we use Google Spreadsheet for planning the development. Please see https://docs.google.com/spreadsheets/d/1aXwyOjh3820FxpYXKiTAIcFOXKm9w8WvKIlZiZB_jGk/edit?usp=drive_web&ouid=110926949660676624980.
+
 ## Environments
 | Environment  | URL |
 |:-------------:|:-------------:|
