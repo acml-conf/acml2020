@@ -72,7 +72,7 @@ const Header = ({ siteTitle }) => {
               return menus.map( (m, i) => {
                 return <li
                   css={{
-                    margin: `5px`,
+                    margin: `5px 10px`,
                     display: i === 0 ? `inline`: `none`,
                     [media(DESKTOP_MIN_WIDTH)]: {
                       display: `inline`
