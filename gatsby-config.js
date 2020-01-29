@@ -2,8 +2,9 @@ module.exports = {
   pathPrefix: `/2020`,
   siteMetadata: {
     title: `ACML 2020`,
-    description: `12th Asian Conference on Machine Learning, Bangkok, Thailand`,
+    description: `12th Asian Conference on Machine Learning, November 18-20 2020, Bangkok, Thailand 🇹🇭`,
     author: `ACML 2020 Team`,
+    url: `http://www.acml-conf.org/2020`,
   },
   plugins: [
     `gatsby-plugin-emotion`,

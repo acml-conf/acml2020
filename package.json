@@ -2,7 +2,7 @@
   "name": "gatsby-starter-default",
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "@emotion/core": "^10.0.27",
@@ -40,7 +40,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "release": "npm run build && npm run deploy",
+    "release": "npm run build && npm run deploy && git push --tags",
     "build": "gatsby build --prefix-paths",
     "deploy": "source .ftp_setting && lftp -e 'set ftp:passive-mode off; mirror --parallel=10 -p --verbose -R ./public 2020; quit' -u $FTP_USERNAME ftp://acml-conf.org",
     "develop": "gatsby develop",
