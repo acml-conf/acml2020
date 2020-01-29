@@ -27,6 +27,7 @@ function SEO({ description, lang, meta, title }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
+  const ogTitle = `${site.siteMetadata.title} | ${title}`
 
   return (
     <Helmet
@@ -42,7 +43,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:title`,
-          content: `${site.siteMetadata.title} | ${title}`,
+          content: ogTitle,
         },
         {
           property: `og:description`,
@@ -66,7 +67,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: ogTitle,
         },
         {
           name: `twitter:description`,
