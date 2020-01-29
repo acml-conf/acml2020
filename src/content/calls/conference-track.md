@@ -6,7 +6,7 @@ requireDate: true
 ---
 
 
-For the conference track please submit your manuscript via CMT at: https://cmt3.research.microsoft.com/ACML2020. When creating a new submission on CMT, please make sure to choose "Conference" track.
+For the conference track please submit your manuscript via CMT at: https://cmt3.research.microsoft.com/ACML2020. When creating a new submission on CMT, please make sure to choose **Conference** track.
 
 Manuscripts must be written in English, be a maximum of 16 pages (including references, appendices etc.) and follow the PMLR style. If required, supplementary material may be submitted as a separate file, but reviewers are not obliged to consider this.
 
