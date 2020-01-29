@@ -34,7 +34,7 @@ title: ""
 
 ### Sponsorship Co-chairs
 - [Sarana Nutanong](https://www.vistec.ac.th/academic/faculty_detail.php?school=IST&id=55), VISTEC
-<!-- - [Ekapol Chuangsuwanich](https://ekapolc.github.io), Chulalongkorn University (unconfirmed) -->
+- [Ekapol Chuangsuwanich](https://ekapolc.github.io), Chulalongkorn University
 
 ### Tutorial Co-chairs
 - [Sanparith Marukatat](https://scholar.google.de/citations?user=6uMrUsQAAAAJ&hl=en), NECTEC
