@@ -19,6 +19,8 @@ import Header from "./header"
 import "./layout.css"
 import BeautifulLink from "./link"
 
+import packageData from "../../package.json"
+
 config.autoAddCss = false;
 
 const Layout = ({ children }) => {
@@ -58,7 +60,9 @@ const Layout = ({ children }) => {
               }
             }}>
             <b>Follow us:</b> <BeautifulLink to="https://github.com/heytitle/acml2020" color="white"><FontAwesomeIcon icon={faGithub}/></BeautifulLink> 
-            <div css={{fontSize: "0.8em", color:"gray"}}>Last updated: {data.currentBuildDate.currentDate}</div>
+            <div css={{fontSize: "0.8em", color:"gray"}}>
+              Last updated: {data.currentBuildDate.currentDate} (v{packageData.version})
+            </div>
           </div>
         © {new Date().getFullYear()} ACML, Built with
         {` `}
