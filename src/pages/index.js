@@ -39,7 +39,7 @@ const IndexPage = () => {
 
     <h2>Important Dates</h2>
     {
-      dates.map(s => <DateSection name={s.section} events={s.events}/>)
+      dates.map( (s, i) => <DateSection name={s.section} events={s.events} showDeadlineWarning={ i == dates.length - 1}/>)
     }
   </Layout>
 }
