@@ -24,6 +24,10 @@ const sections = [
     name: `Journal Track`,
     slug: `/calls/journal-track`
   },
+  {
+    name: `ACML Distinguished Contribution Award`,
+    slug: `/calls/nominations`
+  },
   // {
   //   name: `Tutorials`,
   //   slug: `tutorials`
