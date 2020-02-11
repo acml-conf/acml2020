@@ -5,7 +5,7 @@ path: /calls/nominations
 requireDate: false
 ---
 
-The ACML Steering Committee (SC) decided to establish the ACML Distinguished Contribution Award from 2019. More details about the policy can be seen at http://www.acml-conf.org/Award.ashx.
+The ACML Steering Committee (SC) decided to establish the ACML Distinguished Contribution Award from 2018. More details about the policy can be seen at http://www.acml-conf.org/Award.ashx.
 
 ## The Award
 
