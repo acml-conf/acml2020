@@ -48,3 +48,8 @@ title: ""
 
 ### Web Chair
 - [Pattarawat Chormai](https://pat.chormai.org), Max Planck School of Cognition
+
+## ACM Distinguished Contribution Award Commitee
+- [Geoff Holmes](https://www.cms.waikato.ac.nz/people/geoff), Waikato University
+- [Zhi-Hua Zhou](http://cs.nju.edu.cn/zhouzh/), Nanjing University
+- [Wee Sun Lee](https://www.comp.nus.edu.sg/cs/bio/leews/), National University of Singapore
