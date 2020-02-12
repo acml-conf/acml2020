@@ -46,5 +46,45 @@
                 "date": "September 15, 2020"
             }
         ]
+    },
+    {
+        "slug": "/calls/tutorials",
+        "section": "Tutorials",
+        "events": [
+            {
+                "event": "Tutorial Proposals due",
+                "date": "July 20, 2020"
+            },
+            {
+                "event": "Acceptance Notification",
+                "date": "August 04, 2020"
+            },
+            {
+                "event": "Tutorial material/Website due",
+                "date": "October 20, 2020"
+            },
+            {
+                "event": "ACML Tutorials",
+                "date": "November 18, 2020"
+            }
+        ]
+    },
+    {
+        "slug": "/calls/nominations",
+        "section": "ACML Distinguished Contribution Award",
+        "events": [
+            {
+                "event": "Nominations due",
+                "date": "May 15, 2020"
+            },
+            {
+                "event": "Recommendation from ACML Award Commitee to Steering Committee (SC)",
+                "date": "June 30, 2020"
+            },
+            {
+                "event": "Awardee Notification (if approved by SC)",
+                "date": "July 15, 2020"
+            }
+        ]
     }
 ]

@@ -2,7 +2,7 @@
 content_id: call-for-nominations
 title: ACML Distinguished Contribution Award
 path: /calls/nominations
-requireDate: false
+requireDate: true 
 ---
 
 The ACML Steering Committee (SC) decided to establish the ACML Distinguished Contribution Award from 2018. More details about the policy can be seen at http://www.acml-conf.org/Award.ashx.
@@ -34,6 +34,8 @@ The awardee will be invited to attend the conference of that year and give a 10 
 
 1. The SC will appoint an award committee consisting of 3 people, in each year's SC meeting, for the award to be presented the following year.
 2. Each year there will be, at most one awardee, who must have contributed significantly to promote machine learning in the Geo-regions covered by ACML, in research and service.
-3. Award committee makes a recommendation with citation to the SC, before Jun. 30.
-4. The SC will vote to approve or disapprove the recommendation: If approved, the SC chair will send notification to the awardee by Jul. 15. If disapproved, the SC will not present the award this year.
-5. 2020 Award Committee: Geoff Holmes (Waikato University, New Zealand), Zhi-Hua Zhou (Nanjing University, China), Wee Sun Lee (NUS, Singapore).
+3. Award committee makes a recommendation with citation to the SC, before June 30, 2020.
+4. The SC will vote to approve or disapprove the recommendation: If approved, the SC chair will send notification to the awardee by July 15, 2020. If disapproved, the SC will not present the award this year.
+
+
+**2020 Award Committee:** Geoff Holmes (Waikato University, New Zealand), Zhi-Hua Zhou (Nanjing University, China), Wee Sun Lee (NUS, Singapore).
