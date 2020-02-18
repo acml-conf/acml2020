@@ -1,8 +1,8 @@
 const path = require(`path`)
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
-  const blogPostTemplate = path.resolve(`src/templates/page.js`)
-  const callTemplate = path.resolve(`src/templates/calls.js`)
+  const pageTemplate = path.resolve(`src/templates/page.js`)
+  const pageWithSideMenuTemplate = path.resolve(`src/templates/page-with-side-menu.js`)
   const result = await graphql(`
     {
       allMarkdownRemark(
@@ -12,6 +12,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
           node {
             frontmatter {
               path
+              sideMenu
             }
           }
         }
@@ -27,20 +28,18 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const pages = result.data.allMarkdownRemark.edges
     .filter(n => n.node.frontmatter.path)
 
-  const normalPages = pages.filter(n => !n.node.frontmatter.path.match(/\/calls/))
-
-  normalPages.forEach(({ node }) => {
+  pages.filter(n => !n.node.frontmatter.sideMenu).forEach(({ node }) => {
         createPage({
         path: node.frontmatter.path,
-        component: blogPostTemplate,
+        component: pageTemplate,
         context: {}, // additional data can be passed via context
         })
     })
 
-  pages.filter(n => n.node.frontmatter.path.match(/calls/)).forEach(({ node }) => {
+  pages.filter(n => n.node.frontmatter.sideMenu).forEach(({ node }) => {
     createPage({
     path: node.frontmatter.path,
-    component: callTemplate,
+    component: pageWithSideMenuTemplate,
     context: {}, // additional data can be passed via context
   })
 })

@@ -1,0 +1,46 @@
+{
+    "call": [
+          {
+            "name": "Information",
+            "slug": "/calls"
+          },
+          {
+            "name": "Conference Track",
+            "slug": "/calls/conference-track"
+          },
+          {
+            "name": "Journal Track",
+            "slug": "/calls/journal-track"
+          },
+          {
+            "name": "Tutorials",
+            "slug": "/calls/tutorials"
+          },
+          {
+            "name": "ACML Distinguished Contribution Award",
+            "slug": "/calls/nominations"
+          }
+    ],
+    "participant": [
+          {
+            "name": "Information",
+            "slug": "/participants"
+          },
+          {
+            "name": "Venue",
+            "slug": "/venue"
+          },
+          {
+            "name": "Airports to Venue",
+            "slug": "/participants/traveling-from-airports-to-venue"
+          },
+          {
+            "name": "Getting around Bangkok",
+            "slug": "/participants/getting-around-bangkok"
+          },
+          {
+            "name": "Sim Cards",
+            "slug": "/participants/sim-cards"
+          }
+    ]
+}

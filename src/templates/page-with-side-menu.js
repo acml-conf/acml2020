@@ -11,32 +11,7 @@ import dates from "../content/dates"
 import DateSection from "../components/datesection"
 import { replacePathPrefixHTML } from "../utils";
 
-const sections = [
-  {
-    name: `Information`,
-    slug: `/calls`
-  },
-  {
-    name: `Conference Track`,
-    slug: `/calls/conference-track`
-  },
-  {
-    name: `Journal Track`,
-    slug: `/calls/journal-track`
-  },
-  {
-    name: `Tutorials`,
-    slug: `/calls/tutorials`
-  },
-  {
-    name: `ACML Distinguished Contribution Award`,
-    slug: `/calls/nominations`
-  },
-  // {
-  //   name: `Tutorials`,
-  //   slug: `tutorials`
-  // }
-]
+import sideMenus from "../content/side-menus.json";
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -45,6 +20,9 @@ export default function Template({
   const { frontmatter, html } = markdownRemark
 
   const htmlWithPathPrefix = replacePathPrefixHTML(html)
+  console.log(frontmatter)
+
+  const sections =  sideMenus[frontmatter.content_id.split("-")[0]]
 
   return <Layout>
   <SEO title="Calls"/>
@@ -99,6 +77,7 @@ export const pageQuery = graphql`
         path
         title
         requireDate
+        content_id
       }
       headings {
         value
