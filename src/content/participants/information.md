@@ -8,5 +8,3 @@ sideMenu: true
 
 
 Landing page for participants
-
-## Bangkok 101
