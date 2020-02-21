@@ -22,7 +22,7 @@ More Information: http://khlongsaensaep.com/transfers.html
 
 
 ## Bangkok Skytrain (BTS) and Metro (MRT)
-The BTS Skytrain runs through all important downtown disctricts and major transport hubs in Bangkok, from Mo Chit to On Nut (Sukhumvit Line) and National Stadium to Wongwian Yai (Silom Line). Zooming above Bangkok's traffic at a steady speed, and with connecting points to the MRT Underground, Chao Phraya Express Boats and two land transport terminals at Victory Monument and Mo Chit, it's the best way to get around.
+The BTS Skytrain runs through all important downtown districts and major transport hubs in Bangkok, from Mo Chit to On Nut (Sukhumvit Line) and National Stadium to Wongwian Yai (Silom Line). Zooming above Bangkok's traffic at a steady speed, and with connecting points to the MRT Underground, Chao Phraya Express Boats and two land transport terminals at Victory Monument and Mo Chit, it's the best way to get around.
 
 Read more at: http://www.bangkok-maps.com/bts.htm
 
