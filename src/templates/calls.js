@@ -29,13 +29,13 @@ const sections = [
     slug: `/calls/tutorials`
   },
   {
+    name: `Workshops`,
+    slug: `/calls/workshops`
+  },
+  {
     name: `ACML Distinguished Contribution Award`,
     slug: `/calls/nominations`
   },
-  // {
-  //   name: `Tutorials`,
-  //   slug: `tutorials`
-  // }
 ]
 
 export default function Template({
@@ -65,7 +65,7 @@ export default function Template({
           {
             sections.map(s => {
               return <li css={{listStyle: `none`, margin: 0, textDecoration: frontmatter.path === s.slug ? `underline`: `none`}}>
-                <Link to={s.slug}>{s.name}</Link>
+                <Link to={s.slug} css={{textDecoration: `none`}}>{s.name}</Link>
               </li>
             })
           }

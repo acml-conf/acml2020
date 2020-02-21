@@ -59,16 +59,16 @@ const Layout = ({ children }) => {
                 clear: `both`,
               }
             }}>
-            <b>Follow us:</b> <BeautifulLink to="https://github.com/heytitle/acml2020" color="white"><FontAwesomeIcon icon={faGithub}/></BeautifulLink> 
+            <b>Follow us:</b> <a css={{color: `white`}} href="https://github.com/heytitle/acml2020"><FontAwesomeIcon icon={faGithub}/></a> 
             <div css={{fontSize: "0.8em", color:"gray"}}>
               Last updated: {data.currentBuildDate.currentDate} (v{packageData.version})
             </div>
           </div>
         © {new Date().getFullYear()} ACML, Built with
         {` `}
-        <BeautifulLink color="white" to="https://www.gatsbyjs.org">Gatsby</BeautifulLink>.
+        <a css={{color: `white`}} href="https://www.gatsbyjs.org">Gatsby</a>.
         <br/>
-        Layout and design inspired by <BeautifulLink color="white" to="https://acl2020.org">ACL2020's website</BeautifulLink>.
+        Layout and design inspired by <a css={{color: `white`}} href="https://acl2020.org">ACL2020's website</a>.
         </div>
       </footer>
     </div>

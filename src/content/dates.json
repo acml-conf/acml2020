@@ -70,6 +70,28 @@
         ]
     },
     {
+        "slug": "/calls/workshops",
+        "section": "Workshops",
+        "events": [
+            {
+                "event": "Workshop Proposals due",
+                "date": "July 20, 2020"
+            },
+            {
+                "event": "Acceptance Notification",
+                "date": "August 04, 2020"
+            },
+            {
+                "event": "Workshop material/website due",
+                "date": "October 13, 2020"
+            },
+            {
+                "event": "ACML Workshops",
+                "date": "November 18, 2020"
+            }
+        ]
+    },
+    {
         "slug": "/calls/nominations",
         "section": "ACML Distinguished Contribution Award",
         "events": [

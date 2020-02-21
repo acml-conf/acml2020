@@ -43,7 +43,7 @@ template {
 }
 a {
   color: black;
-  text-decoration: none;
+  text-decoration: underline;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
