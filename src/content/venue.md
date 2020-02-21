@@ -4,7 +4,7 @@ title: Venue
 path: /venue
 ---
 
-## Berkeley Hotem Pratunam
+## Berkeley Hotel Pratunam
 <div align="center">
     <img src="https://i.imgur.com/dgoarG0.png"/>
 </div>
