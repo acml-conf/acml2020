@@ -43,7 +43,7 @@ export default function Template({
           {
             sections.map(s => {
               return <li css={{listStyle: `none`, margin: 0, textDecoration: frontmatter.path === s.slug ? `underline`: `none`}}>
-                <Link to={s.slug}>{s.name}</Link>
+                <Link to={s.slug} css={{textDecoration: `none`}}>{s.name}</Link>
               </li>
             })
           }

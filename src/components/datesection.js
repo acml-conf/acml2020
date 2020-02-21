@@ -1,11 +1,12 @@
 import React from "react"
 
+import DateWarning from "../components/datewarning"
+
 const DateSection = ({name, events, showDeadlineWarning=true}) => {
   return <div css={{marginBottom: `20px`}}>
     { name && events.length > 0 &&
       <h3>{name}</h3>
-    }
-    <table css={{marginLeft: 0, marginBottom: 0}}>
+    } <table css={{marginLeft: 0, marginBottom: 0}}>
       {
         events.map(e => {
           return <tr css={{listStyle: `none`, margin: 0}}>
@@ -19,11 +20,7 @@ const DateSection = ({name, events, showDeadlineWarning=true}) => {
         })
       }
     </table>
-    { showDeadlineWarning &&
-      <div css={{fontSize: `0.8em`, marginTop: `10px`}}>
-        ⚠️{` `}Deadlines are 23:59 Pacific Time (PST/PDT) for all dates.
-      </div>
-    }
+    { showDeadlineWarning && <DateWarning/>}
   </div>
 }
 

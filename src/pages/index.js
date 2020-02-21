@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 import CoverImg from "../components/coverimg"
 
 import DateSection from "../components/datesection"
+import DateWarning from "../components/datewarning"
 
 import dates from "../content/dates"
 
@@ -37,9 +38,12 @@ const IndexPage = () => {
     <h2>Welcome!</h2>
     <div dangerouslySetInnerHTML={{__html: welcomeMSG}}/>
 
-    <h2>Important Dates</h2>
+    <h2 css={{marginBottom: `5px`}}>Important Dates</h2>
+
+    <DateWarning/>
+    <br/>
     {
-      dates.map( (s, i) => <DateSection name={s.section} events={s.events} showDeadlineWarning={ i === dates.length - 1}/>)
+      dates.map( (s, i) => <DateSection name={s.section} events={s.events} showDeadlineWarning={false}/>)
     }
   </Layout>
 }

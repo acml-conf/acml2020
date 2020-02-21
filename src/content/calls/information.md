@@ -9,6 +9,8 @@ The 12th Asian Conference on Machine Learning, Bangkok, Thailand (ACML 2020) aim
 
 ACML has taken place annually since 2009 in locations throughout the Asia-Pacific region. The series of the conferences were held in Nagoya, Japan (2019), Beijing, China (2018), Seoul, Korea (2017), Hamilton, New Zealand (2016), Hong Kong, China (2015), Nha Trang, Vietnam (2014), Canberra, Australia (2013), Singapore (2012), Taoyuan, Taiwan (2011), Tokyo, Japan (2010), and Nanjing, China (2009). As usual, the committee plans to execute two publication tracks this year: Authors may submit either to the conference track, for which the proceedings will be published as a volume of Proceedings of Machine Learning Research (PMLR) series, or to the journal track for which accepted papers will appear in a special issue of the Springer journal Machine Learning.
 
+A PDF flyer with all the calls is [here 🔖](http://bit.ly/acml2020-flyer).
+
 
 ## Topics
 

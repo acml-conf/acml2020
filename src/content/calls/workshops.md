@@ -2,8 +2,6 @@
 content_id: call-for-workshops
 title: Workshops
 path: /calls/workshops
-requireDate: false
+requireDate: true
 sideMenu: true
 ---
-
-TBD.

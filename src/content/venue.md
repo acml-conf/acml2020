@@ -19,7 +19,7 @@ path: /venue
 ☎️ **Phone:** +66 2309-9999
 ☎️ **Fax:** +66 2309-9900
 
-**Address:* *
+**Address:**
 ```
 559 Ratchaprarop Road, Makkasan, Ratchathewi, Bangkok 10400, Thailand
 
