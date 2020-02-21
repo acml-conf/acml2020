@@ -10,3 +10,4 @@ jobs:
         uses: heytitle/github-action-yaspeller/@v0.0.7
         with:
           ext: "*.md"
+          dir: "./src/content"
