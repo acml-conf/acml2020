@@ -2,15 +2,15 @@ import React from "react"
 
 import { withPrefix } from "gatsby"
 
-const BeautifulLink = ({to, children, color=`black`}) => {
+const BeautifulLink = ({to, children, color=`black`, underLine=true}) => {
     return <a href={withPrefix(to)}
         css={{
             color: color,
-            textDecoration: `none`,
+            textDecoration: underLine ? `underline` : `none`,
             cursor: `pointer`,
             ':hover': {
-                textDecoration: `underline`
-            }
+                textDecoration: underLine ? `underline` : `none`,
+            },
         }}
         >
         {children}

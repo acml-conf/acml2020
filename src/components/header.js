@@ -46,9 +46,7 @@ const Header = ({ siteTitle }) => {
     >
       <BeautifulLink
           to="/"
-          css={{
-            textDecoration: `none`,
-          }}
+          underLine={false}
         >
           <b>{siteTitle} <span role="img">🇹🇭</span></b>
         </BeautifulLink>
@@ -81,7 +79,7 @@ const Header = ({ siteTitle }) => {
                   key={m.url}
                   >
                   <HeaderLink location={location} to={m.url}>
-                    <BeautifulLink to={m.url}>{m.name}</BeautifulLink>
+                    <BeautifulLink to={m.url} underLine={false}>{m.name}</BeautifulLink>
                   </HeaderLink>
                 </li>
               })
