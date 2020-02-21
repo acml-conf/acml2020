@@ -11,4 +11,4 @@ jobs:
         with:
           ext: ".md"
           dir: "./src/content"
-          dict: ".github/workflows/dict.json"
+          dictionary: ".github/workflows/dict.json"
