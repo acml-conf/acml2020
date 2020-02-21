@@ -29,7 +29,9 @@ Read more at: http://www.bangkok-maps.com/bts.htm
 
 ## Grab Taxi
 
-Grab Taxi is a smartphone-based taxi booking and dispatching service. Our vision is to revamp the Thai taxi industry, making it a safer and more efficient means of transport we can all be proud of. Only 20 baht booking fee plus more with your meter cost. Link: https://www.grab.com/th/en/taxi/
+Grab Taxi is a smartphone-based taxi booking and dispatching service. Our vision is to revamp the Thai taxi industry, making it a safer and more efficient means of transport we can all be proud of. Only 20 baht booking fee plus more with your meter cost.
+
+Link: https://www.grab.com/th/en/taxi/
 
 ## Grab Bike
 
