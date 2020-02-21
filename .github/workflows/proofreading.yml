@@ -1,0 +1,12 @@
+on: [pull_request]
+jobs:
+  proofreading:
+    runs-on: ubuntu-latest
+    name: Proofreading
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Yaspeller Action
+        uses: heytitle/github-action-yaspeller/@v0.0.7
+        with:
+          ext: "*.md"
