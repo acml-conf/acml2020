@@ -9,5 +9,6 @@ jobs:
       - name: Yaspeller Action
         uses: heytitle/github-action-yaspeller/@v0.0.7
         with:
-          ext: "*.md"
+          ext: ".md"
           dir: "./src/content"
+          dict: ".github/workflows/dict.json"
