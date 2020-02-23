@@ -59,7 +59,7 @@ const Layout = ({ children }) => {
                 clear: `both`,
               }
             }}>
-            <b>Follow us:</b> <a css={{color: `white`}} href="https://github.com/heytitle/acml2020"><FontAwesomeIcon icon={faGithub}/></a> 
+            <b>Follow us:</b> <a css={{color: `white`}} href="https://github.com/acml-conf/acml2020"><FontAwesomeIcon icon={faGithub}/></a>
             <div css={{fontSize: "0.8em", color:"gray"}}>
               Last updated: {data.currentBuildDate.currentDate} (v{packageData.version})
             </div>
