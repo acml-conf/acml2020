@@ -13,12 +13,12 @@ jobs:
     - name: Page Speed Insights (Mobile)
       uses: JakePartusch/psi-action@v1
       with:
-        url: https://thirsty-cori-5d6045.netlify.com
+        url: https://sad-wozniak-6465c2.netlify.com
         threshold: 90
         strategy: mobile
     - name: Page Speed Insights (Desktop)
       uses: JakePartusch/psi-action@v1
       with:
-        url: https://thirsty-cori-5d6045.netlify.com
+        url: https://sad-wozniak-6465c2.netlify.com
         threshold: 90
         strategy: Desktop
