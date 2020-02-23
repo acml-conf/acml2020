@@ -6,4 +6,4 @@ content_id: welcome
 
 Submissions from regions other than the Asia-Pacific are also highly encouraged. It is planned to take place during **November 18-20, 2020 in Bangkok, Thailand**, and is co-located with ICONIP2020. The conference calls for high-quality, original research papers in the theory and practice of machine learning.
 
-A PDF flyer with all the calls is [here 🔖](http://bit.ly/acml2020-flyer).
+A PDF flyer with all the calls is [here 🔖](http://acml-conf.org/2020/files/ACML2020-fullcall-v1.pdf).
