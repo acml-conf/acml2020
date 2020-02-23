@@ -10,7 +10,7 @@ Currently, we use Google Spreadsheet for planning the development. Please see ht
 ## Environments
 | Environment  | URL |
 |:-------------:|:-------------:|
-| Staging | https://thirsty-cori-5d6045.netlify.com |
+| Staging | https://sad-wozniak-6465c2.netlify.com |
 | Production | http://www.acml-conf.org/2020/ |
 
 **Note**: Each PR will also be automatically built by Netlify.
