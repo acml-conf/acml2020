@@ -20,7 +20,6 @@ title: ""
 
 ### Program Co-chairs <a href="mailto:acml2020conferencetrack@gmail.com">📮</a>
 - [Sinno Jialin Pan](https://www.ntu.edu.sg/home/sinnopan/), Nanyang Technological University
-- [Anthony Tzes](https://nyuad.nyu.edu/en/academics/divisions/engineering/faculty/anthony-tzes.html), NYU Abu Dhabi
 - [Masashi Sugiyama](http://www.ms.k.u-tokyo.ac.jp/sugi/), RIKEN/The University of Tokyo
 
 ### Journal Track Co-chairs <a href="mailto:acml2020journaltrack@gmail.com">📮</a>
