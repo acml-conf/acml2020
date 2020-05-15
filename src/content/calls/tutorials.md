@@ -3,6 +3,7 @@ content_id: call-for-tutorials
 title: Tutorials
 path: /calls/tutorials
 requireDate: true
+withSectionMenu: true
 ---
 
 

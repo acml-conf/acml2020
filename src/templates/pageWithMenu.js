@@ -11,36 +11,12 @@ import dates from "../content/dates"
 import DateSection from "../components/datesection"
 import { replacePathPrefixHTML } from "../utils";
 
-const sections = [
-  {
-    name: `Information`,
-    slug: `/calls`
-  },
-  {
-    name: `Conference Track`,
-    slug: `/calls/conference-track`
-  },
-  {
-    name: `Journal Track`,
-    slug: `/calls/journal-track`
-  },
-  {
-    name: `Tutorials`,
-    slug: `/calls/tutorials`
-  },
-  {
-    name: `Workshops`,
-    slug: `/calls/workshops`
-  },
-  {
-    name: `ACML Distinguished Contribution Award`,
-    slug: `/calls/nominations`
-  },
-]
-
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
+  pageContext
 }) {
+
+  const { sectionMenu } = pageContext
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
 
@@ -63,7 +39,7 @@ export default function Template({
         <b>Sections</b>
         <ul css={{margin: 0}}>
           {
-            sections.map(s => {
+            sectionMenu.map(s => {
               return <li css={{listStyle: `none`, margin: 0, textDecoration: frontmatter.path === s.slug ? `underline`: `none`}}>
                 <Link to={s.slug} css={{textDecoration: `none`}}>{s.name}</Link>
               </li>

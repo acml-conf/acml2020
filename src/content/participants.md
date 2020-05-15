@@ -1,6 +1,8 @@
 ---
+content_id: participants-index
+title: Participants
 path: /participants
-title: "Information for Participants"
+# withSectionMenu: true
 ---
 
-To be updated.
+TBA

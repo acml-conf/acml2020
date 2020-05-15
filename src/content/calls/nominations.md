@@ -3,6 +3,7 @@ content_id: call-for-nominations
 title: ACML Distinguished Contribution Award
 path: /calls/nominations
 requireDate: true 
+withSectionMenu: true
 ---
 
 The ACML Steering Committee (SC) decided to establish the ACML Distinguished Contribution Award from 2018. More details about the policy can be seen at http://www.acml-conf.org/Award.ashx.
