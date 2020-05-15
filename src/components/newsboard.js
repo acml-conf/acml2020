@@ -3,11 +3,13 @@ import ReactMarkdown from "react-markdown"
 
 import BeautifulLink from "../components/link"
 
+import { replacePathPrefixHTML } from "../utils"
+
 
 const news = [
   {
     date: `2020/05/30`,
-    content: `[Invited speakers have now been announced.](program/invited-speakers)`
+    content: `[Invited speakers have now been announced.](pathPrefix::/program/invited-speakers)`
   }
 ]
 
@@ -27,7 +29,7 @@ const NewsBoard = ({showOnly}) => {
             marginBottom: `0px`,
           },
         }}>
-          <ReactMarkdown source={`**${n.date}**: ${n.content}`}/>
+          <ReactMarkdown source={`**${n.date}**: ${replacePathPrefixHTML(n.content)}`}/>
         </div>
       </div>
       })
