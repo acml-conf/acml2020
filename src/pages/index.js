@@ -9,6 +9,7 @@ import DateSection from "../components/datesection"
 import DateWarning from "../components/datewarning"
 
 import dates from "../content/dates"
+import NewsBoard from "../components/newsboard"
 
 const IndexPage = () => {
   const { allMarkdownRemark } = useStaticQuery(
@@ -34,6 +35,8 @@ const IndexPage = () => {
     <SEO title="Home" />
     <CoverImg/>
     <br/>
+
+    <NewsBoard showOnly={2}/>
 
     <h2>Welcome!</h2>
     <div dangerouslySetInnerHTML={{__html: welcomeMSG}}/>
