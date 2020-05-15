@@ -10,9 +10,9 @@ import { HamburgerButton } from 'react-hamburger-button';
 
 
 const menus = [
+  { name: `News`, url: `/news`},
   { name: `Program`, url: `/program`},
   { name: `Calls`, url: `/calls`},
-  // { name: `Blog`, url: `/blog`},
   { name: `Participants`, url: `/participants`},
   { name: `Organization`, url: `/organization`},
 ]

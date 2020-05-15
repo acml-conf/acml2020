@@ -8,7 +8,7 @@ import ReactMarkdown from "react-markdown"
 const news = [
   {
     date: `2020/05/30`,
-    content: `something [334](http://www.google.com)`
+    content: `[Invited speakers have now been announced.](/program/invited-speakers)`
   }
 ]
 
@@ -33,13 +33,14 @@ const NewsBoard = ({showOnly}) => {
       </div>
       })
     }
-    <div css={{
-      textAlign: `center`,
-      marginTop: `10px`,
-      color: `gray`,
-    }}>
-      <a css={{color: `gray`}} href="...">Older News ({news.length})</a>
-    </div>
+    { showOnly && <div css={{
+        textAlign: `center`,
+        marginTop: `10px`,
+        color: `gray`,
+      }}>
+        <a css={{color: `gray`}} href="/news">Older News ({news.length})</a>
+      </div>
+    }
   </>
 }
 
