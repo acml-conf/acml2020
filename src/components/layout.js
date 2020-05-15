@@ -17,7 +17,6 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 import Header from "./header"
 import "./layout.css"
-import BeautifulLink from "./link"
 
 import packageData from "../../package.json"
 

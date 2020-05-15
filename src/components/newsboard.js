@@ -1,14 +1,13 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-
-import { DESKTOP_MIN_WIDTH, media } from "../style"
 import ReactMarkdown from "react-markdown"
+
+import BeautifulLink from "../components/link"
 
 
 const news = [
   {
     date: `2020/05/30`,
-    content: `[Invited speakers have now been announced.](/program/invited-speakers)`
+    content: `[Invited speakers have now been announced.](program/invited-speakers)`
   }
 ]
 
@@ -38,7 +37,13 @@ const NewsBoard = ({showOnly}) => {
         marginTop: `10px`,
         color: `gray`,
       }}>
-        <a css={{color: `gray`}} href="/news">Older News ({news.length})</a>
+        <BeautifulLink
+          to="/news"
+          underLine={false}
+          color="gray"
+        >
+          Older News ({news.length})
+        </BeautifulLink>
       </div>
     }
   </>
