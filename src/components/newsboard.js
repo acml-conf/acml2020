@@ -8,7 +8,11 @@ import { replacePathPrefixHTML } from "../utils"
 
 const news = [
   {
-    date: `2020/05/30`,
+    date: `2020/05/28`,
+    content: `Selected papers from the conference track may now appear in a [journal special issue](pathPrefix::/calls/conference-track).`
+  },
+  {
+    date: `2020/05/16`,
     content: `[Invited speakers have now been announced.](pathPrefix::/program/invited-speakers)`
   }
 ]
@@ -18,7 +22,7 @@ const NewsBoard = ({showOnly}) => {
     <h2>News</h2>
     {
       news.map(n => {
-      return <div css={{textAlign: `center`}}>
+      return <div css={{textAlign: `center`, marginBottom: `10px`}}>
         <div css={{
           padding: `10px`,
           borderRadius: `5px`,
