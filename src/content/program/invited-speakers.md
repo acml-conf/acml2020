@@ -66,11 +66,11 @@ His research interests include machine learning, planning under uncertainty, and
 
 **Affiliation:** Chulalongkorn University, Bangkok, Thailand
 
-**Title:** TBA
+**Title:** Fast and Accurate Neural Learning with Limited Memory Size, Limited Energy Supply, and Class Drift Constraints in Streaming Data Environment
 
 **Abstract:**
 
-TBA
+Tremendous data have been generated in almost every field of industrial and scientific applications and researches Due to the advancement of Internet and new sensor equipment. This situation creates a crisis of memory overflow, where the amount of continuously incoming data is larger than the physical size of memory. Most of the developed neural learning algorithms were designed without seriously considering this memory overflow crisis. It is assumed that all learning data including present data and new incoming data must be retained inside the memory throughout the learning process. This assumption is unrealistic and impractical in the streaming data environment. Furthermore, the number of learning epochs cannot be controlled, which implies that the energy consumption for achieving the learning process may exceed the available energy supply such as a battery. This talk will discuss a new concept of neural learning, the supporting architecture, and the relevant theoretical foundation to achieve the efficient leaning process with high accuracy under the constraints of memory overflow and controllable polynomial time complexity.
 
 **Bio:**
 
