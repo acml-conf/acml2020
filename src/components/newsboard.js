@@ -17,7 +17,7 @@ const news = [
   },
   {
     date: `2020/06/15`,
-    content: `Conference track deadline extended by 2 weeks to 29 June 2020 as well as the other dates`
+    content: `Conference track deadline extended by 2 weeks to 29 June 2020 as well as the following dates`
   }
 ]
 
