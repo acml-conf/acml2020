@@ -14,14 +14,21 @@ const news = [
   {
     date: `2020/05/16`,
     content: `[Invited speakers have now been announced.](pathPrefix::/program/invited-speakers)`
+  },
+  {
+    date: `2020/06/15`,
+    content: `Conference track deadline extended by 2 weeks to 29 June 2020`
   }
 ]
 
 const NewsBoard = ({showOnly}) => {
+  const sortedNews = news.sort((a, b) => -a.date.localeCompare(b.date))
+  const selectedNews = showOnly ? sortedNews.slice(0, showOnly) : news
+
   return <>
     <h2>News</h2>
     {
-      news.map(n => {
+      selectedNews.map(n => {
       return <div css={{textAlign: `center`, marginBottom: `10px`}}>
         <div css={{
           padding: `10px`,
