@@ -5,7 +5,12 @@
         "events": [
             {
                 "event": "Submission Deadline",
-                "date": "June 15, 2020"
+                "date": "June 15, 2020",
+                "forcePassed": true
+            },
+            {
+                "event": "New Submission Deadline",
+                "date": "June 29, 2020"
             },
             {
                 "event": "Author Rebuttal",

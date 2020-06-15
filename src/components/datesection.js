@@ -25,11 +25,12 @@ const DateSection = ({name, events, showDeadlineWarning=true}) => {
     } <table css={{marginLeft: 0, marginBottom: 0}}>
       {
         events.map(e => {
+          const eventPassed = e.forcePassed || isPassed(e.date)
           return <tr css={{
               listStyle: `none`,
               margin: 0,
-              textDecoration: isPassed(e.date) ? `line-through`: `none`,
-              color: isPassed(e.date) ? `#bbb`: `black`
+              textDecoration: eventPassed ? `line-through`: `none`,
+              color: eventPassed ? `#bbb`: `black`
             }}>
             <td width="250px">
               {e.date}
