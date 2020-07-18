@@ -24,4 +24,4 @@ A tutorial proposal should contain the following:
 - Description of presentation medium (slides, multimedia, demos, etc.) and technical equipment (e.g., internet access)
 - A brief academic bio for each proposed presenter, including name, email, webpage, research expertise, and list of publications in tutorial area.
 
-Proposals and questions should be submitted to Tutorial Co-chairs Sanparith Marukatat and Ivor Tsang: acml2020tutorial@gmail.com; Sanparith.Marukatat@nectec.or.th; Ivor.Tsang@uts.edu.au.
+Proposals and questions should be submitted to Tutorial Co-chairs Sanparith Marukatat and Ivor Tsang: [acml2020tutorial@gmail.com](mailto:acml2020tutorial@gmail.com); [Sanparith.Marukatat@nectec.or.th](mailto:Sanparith.Marukatat@nectec.or.th); [Ivor.Tsang@uts.edu.au](mailto:Ivor.Tsang@uts.edu.au).
