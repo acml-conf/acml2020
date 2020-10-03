@@ -39,7 +39,7 @@ export default function Template({
         <b css={{textTransform: `capitalize`, textDecoration: frontmatter.path === `/${sectionName}` ? `underline`: `none`}}>
           <Link to={`/${sectionName}`} css={{textDecoration: `none`}}>{sectionName}</Link>
         </b>
-        <ul css={{margin: 0}}>
+        <ul css={{margin: 0, padding: 0}}>
           {
             sectionMenu.map(s => {
               return <li css={{listStyle: `none`, margin: 0, textDecoration: frontmatter.path === s.slug ? `underline`: `none`}}>
