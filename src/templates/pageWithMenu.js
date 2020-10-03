@@ -2,6 +2,7 @@ import React from "react"
 
 import { graphql } from "gatsby"
 import { Link } from "gatsby"
+import MDXRenderer from 'gatsby-plugin-mdx/mdx-renderer';
 
 import { DESKTOP_MIN_WIDTH, media } from "../style"
 import Layout from "../components/layout"
@@ -11,19 +12,18 @@ import dates from "../content/dates"
 import DateSection from "../components/datesection"
 import { replacePathPrefixHTML } from "../utils";
 
+
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
   pageContext
 }) {
 
-  const { sectionMenu } = pageContext
-  const { markdownRemark } = data // data.markdownRemark holds your post data
-  const { frontmatter, html } = markdownRemark
-
-  const htmlWithPathPrefix = replacePathPrefixHTML(html)
+  const { sectionMenu, sectionName } = pageContext
+  const { mdx } = data // data.markdownRemark holds your post data
+  const { frontmatter, body} = mdx
 
   return <Layout>
-  <SEO title="Calls"/>
+  <SEO title={sectionName}/>
   <br/>
   <div css={{position: `relative`}}>
     <div css={{
@@ -36,7 +36,9 @@ export default function Template({
       }
     }}>
       <div>
-        <b>Sections</b>
+        <b css={{textTransform: `capitalize`, textDecoration: frontmatter.path === `/${sectionName}` ? `underline`: `none`}}>
+          <Link to={`/${sectionName}`} css={{textDecoration: `none`}}>{sectionName}</Link>
+        </b>
         <ul css={{margin: 0}}>
           {
             sectionMenu.map(s => {
@@ -61,7 +63,7 @@ export default function Template({
           <DateSection events={dates.filter(d => d.slug === frontmatter.path)[0].events}></DateSection>
         </div>
       }
-      <div dangerouslySetInnerHTML={{__html: htmlWithPathPrefix}}/>
+      <MDXRenderer>{body}</MDXRenderer>
     </div>
   </div>
 </Layout>
@@ -69,7 +71,8 @@ export default function Template({
 
 export const pageQuery = graphql`
   query($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
+    mdx(frontmatter: { path: { eq: $path } }) {
+      body
       html
       frontmatter {
         path
