@@ -17,7 +17,9 @@ const papers = [
 
 const AcceptedPapersList = () => {
     return <div>
-        We have accepted in total {papers.length} papers this year.
+
+        In total, we have accepted {papers.length} papers out of XXX submissions.
+        <br/>
 
         <ul css={{listStyle: `none`, padding: 0, margin: 0}}>
             {papers.map(paper => {
