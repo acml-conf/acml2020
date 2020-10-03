@@ -8,6 +8,4 @@ useMDX: true
 
 import AcceptedPapersList from "../../templates/acceptedPapersList";
 
-Accepted Papers
-
 <AcceptedPapersList/>

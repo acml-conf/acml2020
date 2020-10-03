@@ -73,7 +73,6 @@ export const pageQuery = graphql`
   query($path: String!) {
     mdx(frontmatter: { path: { eq: $path } }) {
       body
-      html
       frontmatter {
         path
         title
