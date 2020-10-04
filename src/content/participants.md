@@ -1,8 +1,11 @@
 ---
 content_id: participants-index
-title: Participants
-path: /participants
-# withSectionMenu: true
+title: Registration
+path: /registration
 ---
 
 TBA
+
+Price ...
+
+Registration Portal ...
