@@ -21,7 +21,11 @@ const news = [
   },
   {
     date: `2020/10/03`,
-    content: `Accepted papers are now available on [PMLR Volume 129](http://proceedings.mlr.press/v129/)`
+    content: `Conference trackpapers are now available in [PMLR Volume 129](http://proceedings.mlr.press/v129/).`
+  },
+  {
+    date: `2020/10/08`,
+    content: `[Our registration portal](pathPrefix::/registration) is now open! 🎉`
   }
 ]
 

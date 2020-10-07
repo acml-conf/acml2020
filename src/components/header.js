@@ -49,14 +49,14 @@ const Header = ({ siteTitle }) => {
           <b>{siteTitle} <span role="img">🇹🇭</span></b>
           {` `}
         </BeautifulLink>
-        <Location>
+        {/* <Location>
             {({ location }) => {
               console.log(location)
               return <HeaderLink location={location} to="/virtual-site">
                 <BeautifulLink to="/virtual-site" underLine={false}>Virtual Site</BeautifulLink>
               </HeaderLink>
             }}
-        </Location>
+        </Location> */}
         <ul css={{
           listStyle: `none`, 
           display: `inline-block`,

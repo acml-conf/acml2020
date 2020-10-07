@@ -34,7 +34,7 @@ const mockPaperData = [
 
 const GreetingMSG = () => {
   return <div css={{marginBottom: `10px`}}>
-    <h2>Welcome to ACML2020's Virtual Site 👋</h2>
+    <h2>Welcome to ACML2020's Virtual Site 👋 (under construction)</h2>
   </div>
 }
 
