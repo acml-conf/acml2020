@@ -19,10 +19,10 @@ const news = [
     date: `2020/06/15`,
     content: `Conference track deadline extended by 2 weeks to 29 June 2020 as well as the other dates.`
   },
-  {
-    date: `2020/10/03`,
-    content: `Conference trackpapers are now available in [PMLR Volume 129](http://proceedings.mlr.press/v129/).`
-  },
+  // {
+  //   date: `2020/10/03`,
+  //   content: `Conference trackpapers are now available in [PMLR Volume 129](http://proceedings.mlr.press/v129/).`
+  // },
   {
     date: `2020/10/08`,
     content: `[Our registration portal](pathPrefix::/registration) is now open! 🎉`
