@@ -13,10 +13,10 @@ We have four invited speakers at ACML2020.
 
 |  | Speaker  | Affiliation  | Talk Title  |
 |:---:|:---:|:---:|:---:|
-| <ImageWithPathPrefix width="200px" src="/invited-speakers/SuriyaGunasekar.jpg"/> | Suriya Gunasekar | Microsoft Research, USA | TBA |
-| <ImageWithPathPrefix width="200px" src="/invited-speakers/AliceOh.jpg"/> | Alice Oh | KAIST, Korea | [Open domain dialogue response generation: models and evaluation metrics](#alice-oh) |
-| <ImageWithPathPrefix width="200px" src="/invited-speakers/WeeSunLee.jpg"/> | Lee Wee Sun | National University of Singapore, Singapore | [Neuralizing Algorithms](#lee-wee-sun) |
-| <ImageWithPathPrefix width="200px" src="/invited-speakers/chidchnok.jpg"/> | Chidchanok Lursinsap | Chulalongkorn University, Thailand |  [Fast and Accurate Neural Learning with Limited Memory Size, Limited Energy Supply, and Class Drift Constraints in Streaming Data Environment](#chidchanok-lursinsap) |
+| <ImageWithPathPrefix width="200px" src="pathPrefix::/invited-speakers/SuriyaGunasekar.jpg"/> | Suriya Gunasekar | Microsoft Research, USA | TBA |
+| <ImageWithPathPrefix width="200px" src="pathPrefix::/invited-speakers/AliceOh.jpg"/> | Alice Oh | KAIST, Korea | [Open domain dialogue response generation: models and evaluation metrics](#alice-oh) |
+| <ImageWithPathPrefix width="200px" src="pathPrefix::/invited-speakers/WeeSunLee.jpg"/> | Lee Wee Sun | National University of Singapore, Singapore | [Neuralizing Algorithms](#lee-wee-sun) |
+| <ImageWithPathPrefix width="200px" src="pathPrefix::/invited-speakers/chidchnok.jpg"/> | Chidchanok Lursinsap | Chulalongkorn University, Thailand |  [Fast and Accurate Neural Learning with Limited Memory Size, Limited Energy Supply, and Class Drift Constraints in Streaming Data Environment](#chidchanok-lursinsap) |
 
 ## Speakers' Biographies and Talk Details
 
