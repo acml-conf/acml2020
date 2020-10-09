@@ -22,7 +22,7 @@ We have four invited speakers at ACML2020.
 
 ### Suriya Gunasekar
 <div align="center">
-    <ImageWithPathPrefix width="200px" src="/invited-speakers/SuriyaGunasekar.jpg"/> 
+    <ImageWithPathPrefix width="200px" src="pathPrefix::/invited-speakers/SuriyaGunasekar.jpg"/> 
 </div>
 
 **Affiliation:** Microsoft Research, USA
@@ -39,7 +39,7 @@ Suriya Gunasekar is a Senior Researcher in the Machine Learning and Optimization
 
 ### Alice Oh
 <div align="center">
-    <ImageWithPathPrefix width="200px" src="/invited-speakers/AliceOh.jpg"/> 
+    <ImageWithPathPrefix width="200px" src="pathPrefix::/invited-speakers/AliceOh.jpg"/> 
 </div>
 
 **Affiliation:** KAIST, Korea
@@ -56,7 +56,7 @@ Alice Oh is an Associate Professor in the School of Computing at KAIST and direc
 
 ### Lee Wee Sun
 <div align="center">
-    <ImageWithPathPrefix width="200px" src="/invited-speakers/WeeSunLee.jpg"/> 
+    <ImageWithPathPrefix width="200px" src="pathPrefix::/invited-speakers/WeeSunLee.jpg"/> 
 </div>
 
 **Affiliation:** National University of Singapore, Singapore
@@ -76,7 +76,7 @@ His research interests include machine learning, planning under uncertainty, and
 
 ### Chidchanok Lursinsap
 <div align="center">
-    <ImageWithPathPrefix width="200px" src="/invited-speakers/chidchnok.jpg"/> 
+    <ImageWithPathPrefix width="200px" src="pathPrefix::/invited-speakers/chidchnok.jpg"/> 
 </div>
 
 **Affiliation:** Chulalongkorn University, Bangkok, Thailand
