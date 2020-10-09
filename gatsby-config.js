@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: `/2020`,
   siteMetadata: {
     title: `ACML 2020`,
-    description: `12th Asian Conference on Machine Learning, November 18-20 2020, Bangkok, Thailand 🇹🇭`,
+    description: `12th Asian Conference on Machine Learning, November 18-20 2020, Bangkok, Thailand 🇹🇭 (now virtual)`,
     author: `ACML 2020 Team`,
     url: `http://www.acml-conf.org/2020`,
   },
@@ -54,28 +54,11 @@ module.exports = {
         },
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-create-client-paths`,
-    //   options: { prefixes: [`/calls/*`, `/programs/*`] },
-    // },
-
-    // {
-    //   resolve: `gatsby-plugin-google-fonts`,
-    //   options: {
-    //     fonts: [
-    //       `Libre Baskerville`,
-    //     ],
-    //     display: 'swap'
-    //   }
-    // },
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: "UA-48736618-8",
-    //   },
-    // },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: ['.mdx', '.md'],
+      }
+    }
   ],
 }

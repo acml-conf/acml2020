@@ -5,20 +5,24 @@ path: /program/invited-speakers
 withSectionMenu: true
 ---
 
+import ImageWithPathPrefix from "../../components/imageWithPathPrefix";
+
 We have four invited speakers at ACML2020.
+
+
 
 |  | Speaker  | Affiliation  | Talk Title  |
 |:---:|:---:|:---:|:---:|
-| <img width="200px" src="pathPrefix::/invited-speakers/SuriyaGunasekar.jpg"/> | Suriya Gunasekar | Microsoft Research, USA | TBA |
-| <img width="200px" src="pathPrefix::/invited-speakers/AliceOh.jpg"/> | Alice Oh | KAIST, Korea | [Open domain dialogue response generation: models and evaluation metrics](#alice-oh) |
-| <img width="200px" src="pathPrefix::/invited-speakers/WeeSunLee.jpg"/> | Lee Wee Sun | National University of Singapore, Singapore | [Neuralizing Algorithms](#lee-wee-sun) |
-| <img width="200px" src="pathPrefix::/invited-speakers/chidchnok.jpg"/> | Chidchanok Lursinsap | Chulalongkorn University, Thailand |  [Fast and Accurate Neural Learning with Limited Memory Size, Limited Energy Supply, and Class Drift Constraints in Streaming Data Environment](#chidchanok-lursinsap) |
+| <ImageWithPathPrefix width="200px" src="/invited-speakers/SuriyaGunasekar.jpg"/> | Suriya Gunasekar | Microsoft Research, USA | TBA |
+| <ImageWithPathPrefix width="200px" src="/invited-speakers/AliceOh.jpg"/> | Alice Oh | KAIST, Korea | [Open domain dialogue response generation: models and evaluation metrics](#alice-oh) |
+| <ImageWithPathPrefix width="200px" src="/invited-speakers/WeeSunLee.jpg"/> | Lee Wee Sun | National University of Singapore, Singapore | [Neuralizing Algorithms](#lee-wee-sun) |
+| <ImageWithPathPrefix width="200px" src="/invited-speakers/chidchnok.jpg"/> | Chidchanok Lursinsap | Chulalongkorn University, Thailand |  [Fast and Accurate Neural Learning with Limited Memory Size, Limited Energy Supply, and Class Drift Constraints in Streaming Data Environment](#chidchanok-lursinsap) |
 
 ## Speakers' Biographies and Talk Details
 
 ### Suriya Gunasekar
 <div align="center">
-    <img width="200px" src="pathPrefix::/invited-speakers/SuriyaGunasekar.jpg"/>
+    <ImageWithPathPrefix width="200px" src="/invited-speakers/SuriyaGunasekar.jpg"/> 
 </div>
 
 **Affiliation:** Microsoft Research, USA
@@ -35,7 +39,7 @@ Suriya Gunasekar is a Senior Researcher in the Machine Learning and Optimization
 
 ### Alice Oh
 <div align="center">
-    <img width="200px" src="pathPrefix::/invited-speakers/AliceOh.jpg"/>
+    <ImageWithPathPrefix width="200px" src="/invited-speakers/AliceOh.jpg"/> 
 </div>
 
 **Affiliation:** KAIST, Korea
@@ -52,7 +56,7 @@ Alice Oh is an Associate Professor in the School of Computing at KAIST and direc
 
 ### Lee Wee Sun
 <div align="center">
-    <img width="200px" src="pathPrefix::/invited-speakers/WeeSunLee.jpg"/>
+    <ImageWithPathPrefix width="200px" src="/invited-speakers/WeeSunLee.jpg"/> 
 </div>
 
 **Affiliation:** National University of Singapore, Singapore
@@ -72,7 +76,7 @@ His research interests include machine learning, planning under uncertainty, and
 
 ### Chidchanok Lursinsap
 <div align="center">
-    <img width="200px" src="pathPrefix::/invited-speakers/chidchnok.jpg"/>
+    <ImageWithPathPrefix width="200px" src="/invited-speakers/chidchnok.jpg"/> 
 </div>
 
 **Affiliation:** Chulalongkorn University, Bangkok, Thailand

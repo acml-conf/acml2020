@@ -18,19 +18,34 @@ const news = [
   {
     date: `2020/06/15`,
     content: `Conference track deadline extended by 2 weeks to 29 June 2020 as well as the other dates.`
+  },
+  {
+    date: `2020/10/03`,
+    content: `Conference trackpapers are now available in [PMLR Volume 129](http://proceedings.mlr.press/v129/).`
+  },
+  {
+    date: `2020/10/08`,
+    content: `[Our registration portal](pathPrefix::/registration) is now open! 🎉`,
+    pin: true,
   }
 ]
 
 const NewsBoard = ({showOnly}) => {
   const sortedNews = news.sort((a, b) => -a.date.localeCompare(b.date))
-  const selectedNews = showOnly ? sortedNews.slice(0, showOnly) : news
+
+  const pinnedNews = sortedNews.filter(n=> n.pin)
+  const notPinnedNews = sortedNews.filter(n=> !n.pin)
+
+  const selectedNews = showOnly ? notPinnedNews.slice(0, showOnly - pinnedNews.length) : notPinnedNews
+  const showedNews = pinnedNews.concat(selectedNews)
 
   return <>
     <h2>News</h2>
     {
-      selectedNews.map(n => {
+      showedNews.map(n => {
       return <div css={{textAlign: `center`, marginBottom: `10px`}}>
         <div css={{
+          position: `relative`,
           padding: `10px`,
           borderRadius: `5px`,
           textAlign: `left`,
@@ -41,6 +56,9 @@ const NewsBoard = ({showOnly}) => {
           },
         }}>
           <ReactMarkdown source={`**${n.date}**: ${replacePathPrefixHTML(n.content)}`}/>
+          { n.pin && 
+            <span css={{float: `right`, top: 5, right: 10, position: `absolute`}}>📍</span>
+          }
         </div>
       </div>
       })

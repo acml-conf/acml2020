@@ -12,9 +12,7 @@ import { HamburgerButton } from 'react-hamburger-button';
 const menus = [
   { name: `News`, url: `/news`},
   { name: `Program`, url: `/program`},
-  { name: `Calls`, url: `/calls`},
-  { name: `Participants`, url: `/participants`},
-  { name: `Organization`, url: `/organization`},
+  { name: `Registration`, url: `/registration`},
 ]
 
 
@@ -49,7 +47,16 @@ const Header = ({ siteTitle }) => {
           underLine={false}
         >
           <b>{siteTitle} <span role="img">🇹🇭</span></b>
+          {` `}
         </BeautifulLink>
+        {/* <Location>
+            {({ location }) => {
+              console.log(location)
+              return <HeaderLink location={location} to="/virtual-site">
+                <BeautifulLink to="/virtual-site" underLine={false}>Virtual Site</BeautifulLink>
+              </HeaderLink>
+            }}
+        </Location> */}
         <ul css={{
           listStyle: `none`, 
           display: `inline-block`,

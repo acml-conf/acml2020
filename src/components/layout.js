@@ -63,10 +63,11 @@ const Layout = ({ children }) => {
               Last updated: {data.currentBuildDate.currentDate} (v{packageData.version})
             </div>
           </div>
-        © {new Date().getFullYear()} ACML, Built with
+
+        <b><a css={{color: `white`}} href="http://www.acml-conf.org/2020/organization">ACML2020 Organization</a></b> <br/>
+        Built with
         {` `}
-        <a css={{color: `white`}} href="https://www.gatsbyjs.org">Gatsby</a>.
-        <br/>
+        <a css={{color: `white`}} href="https://www.gatsbyjs.org">Gatsby</a>;
         Layout and design inspired by <a css={{color: `white`}} href="https://acl2020.org">ACL2020's website</a>.
         </div>
       </footer>

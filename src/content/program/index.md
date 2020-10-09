@@ -5,4 +5,7 @@ path: /program
 withSectionMenu: true
 ---
 
-TBA
+We plan to release the complete schedule in the upcoming week. Please stay tuned!
+For now, please see our program at the correponding pages.
+
+~~[Call for workshops, tutorials, and papers](/calls)~~

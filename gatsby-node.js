@@ -32,7 +32,19 @@ const sectionMenuGroup = {
     {
       name: `Invited Speakers`,
       slug: `/program/invited-speakers`
-    }
+    },
+    {
+      name: `Tutorials`,
+      slug: `/program/tutorials`
+    },
+    {
+      name: `Workshops`,
+      slug: `/program/workshops`
+    },
+    {
+      name: `Accepted Papers`,
+      slug: `/program/papers`
+    },
   ]
 }
 
@@ -83,7 +95,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     path: node.frontmatter.path,
     component: callTemplate,
     context: {
-      sectionMenu: sectionMenuGroup[group]
+      sectionMenu: sectionMenuGroup[group],
+      sectionName: group
     }, // additional data can be passed via context
   })
 })
