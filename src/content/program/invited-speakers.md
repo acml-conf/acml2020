@@ -13,7 +13,7 @@ We have four invited speakers at ACML2020.
 
 |  | Speaker  | Affiliation  | Talk Title  |
 |:---:|:---:|:---:|:---:|
-| <ImageWithPathPrefix width="200px" src="pathPrefix::/invited-speakers/SuriyaGunasekar.jpg"/> | Suriya Gunasekar | Microsoft Research, USA | TBA |
+| <ImageWithPathPrefix width="200px" src="pathPrefix::/invited-speakers/SuriyaGunasekar.jpg"/> | Suriya Gunasekar | Microsoft Research, USA | [Rethinking the role of optimization in learning](#suriya-gunasekar) |
 | <ImageWithPathPrefix width="200px" src="pathPrefix::/invited-speakers/AliceOh.jpg"/> | Alice Oh | KAIST, Korea | [Open domain dialogue response generation: models and evaluation metrics](#alice-oh) |
 | <ImageWithPathPrefix width="200px" src="pathPrefix::/invited-speakers/WeeSunLee.jpg"/> | Lee Wee Sun | National University of Singapore, Singapore | [Neuralizing Algorithms](#lee-wee-sun) |
 | <ImageWithPathPrefix width="200px" src="pathPrefix::/invited-speakers/chidchnok.jpg"/> | Chidchanok Lursinsap | Chulalongkorn University, Thailand |  [Fast and Accurate Neural Learning with Limited Memory Size, Limited Energy Supply, and Class Drift Constraints in Streaming Data Environment](#chidchanok-lursinsap) |
@@ -27,11 +27,11 @@ We have four invited speakers at ACML2020.
 
 **Affiliation:** Microsoft Research, USA
 
-**Title:** TBA
+**Title:** Rethinking the role of optimization in learning
 
 **Abstract:**
 
-TBA
+In this talk, I will overview recent results towards understanding how we learn large capacity machine learning models. In the modern practice of machine learning, especially deep learning, many successful models have far more trainable parameters compared to the number of training examples. Consequently, the optimization objective for training such models have multiple minimizers that perfectly fit the training data. More problematically, while some of these minimizers generalize well to new examples, most minimizers will simply overfit or memorize the training data and will perform poorly on new examples. In practice though, when such ill-posed objectives are minimized using local search algorithms like (stochastic) gradient descent ((S)GD), the "special" minimizers returned by these algorithms have remarkably good performance on new examples. In this talk, we will explore the role optimization algorithms like (S)GD in learning overparameterized models in simpler setting of learning linear predictors.
 
 **Bio:**
 
