@@ -1,6 +1,6 @@
 ---
 content_id: program-accepted-papers
-title: Accepted Papers
+title: Main Conference
 path: /program/papers
 withSectionMenu: true
 useMDX: true
