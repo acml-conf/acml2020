@@ -30,6 +30,10 @@ const sectionMenuGroup = {
   ],
   program: [
     {
+      name: `Main Conference`,
+      slug: `/program/papers`
+    },
+    {
       name: `Invited Speakers`,
       slug: `/program/invited-speakers`
     },
@@ -40,10 +44,6 @@ const sectionMenuGroup = {
     {
       name: `Workshops`,
       slug: `/program/workshops`
-    },
-    {
-      name: `Accepted Papers`,
-      slug: `/program/papers`
     },
   ]
 }
