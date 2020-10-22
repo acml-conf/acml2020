@@ -45,15 +45,19 @@ const IndexPage = () => {
     <SEO title="Page Paper 1 : ..."/>
 
 
-    <div css={{width: `100%`, height: `400px`, background: `lightgray`, marginTop: `10px`}}>
-      Video
-    </div>
-
     <div style={{marginTop: `5px`, textAlign: `right`}}>
       <span>[PDF]</span>
     </div>
-
     <h3 style={{marginTop: `10px`, marginBottom: `10px`}}>Paper Title (mock up paper/talk page)</h3>
+
+    <div css={{width: `100%`, marginTop: `10px`}}>
+      <iframe
+        src="http://videolectures.net/lawandethics2017_wilson_algorithmic_patrol/iframe/1/"
+        style={{border: 0, width: `100%`, height: `425px`, marginBottom: `0px`}}
+      />
+    </div>
+
+
     <h4 style={{textDecoration: `none`, margin: 0}}>By Mr. A, Mr. B</h4>
     <p style={{marginTop: `10px`, padding: `10px`, backgroundColor: `#eee`, borderRadius: `5px`}}>
       <b>Abstract</b><br/>
