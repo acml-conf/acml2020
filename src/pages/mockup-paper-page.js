@@ -52,7 +52,7 @@ const IndexPage = () => {
 
     <div css={{width: `100%`, marginTop: `10px`}}>
       <iframe
-        src="http://videolectures.net/lawandethics2017_wilson_algorithmic_patrol/iframe/1/"
+        src="//videolectures.net/lawandethics2017_wilson_algorithmic_patrol/iframe/1/"
         style={{border: 0, width: `100%`, height: `425px`, marginBottom: `0px`}}
       />
     </div>
