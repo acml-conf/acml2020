@@ -29,7 +29,7 @@ const news = [
   },
   {
     date: `2020/10/22`,
-    content: `ACML2020 will be free of change for participants; paper authors please register via the link sent by email.`,
+    content: `ACML2020 will be free of charge for participants; paper authors please register via the link sent by email.`,
     pin: true,
   }
 ]
