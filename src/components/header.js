@@ -11,8 +11,7 @@ import { HamburgerButton } from 'react-hamburger-button';
 
 const menus = [
   { name: `News`, url: `/news`},
-  { name: `Program`, url: `/program`},
-  { name: `Registration`, url: `/registration`},
+  { name: `Program`, url: `/program/papers`},
 ]
 
 
