@@ -38,7 +38,7 @@ export default function Template({data, pageContext}){
       }
       {
         !pageContext.videolectureId && <div style={{height: `425px`, width: `100%`, background: `lightgray`}}>
-          (iframe from videolecture; current videolecture id is null)
+          (video is in preparation (debug msg: current videolecture id is null)
         </div>
       }
     </div>
