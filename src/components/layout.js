@@ -53,6 +53,7 @@ const Layout = ({ children }) => {
         <div css={{maxWidth: 1024, margin: `0 auto`, padding: "0 10px"}}>
           <div css={{
               fontSize: `1em`, marginBottom: `10px`,
+              textAlign: `right`,
               [media(DESKTOP_MIN_WIDTH)]: {
                 float: `right`,
                 clear: `both`,

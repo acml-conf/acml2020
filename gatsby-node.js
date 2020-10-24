@@ -2,36 +2,7 @@ const { publicDecrypt } = require("crypto")
 const path = require(`path`)
 
 const papers = require("./src/content/acml-papers.json")
-
-const mockPapers = [
-  {
-    id: 0,
-    title: `Paper 1`,
-    authors: `Mr. Foo Bar, Mrs. ABC DEF`,
-    presenationSlots: [
-      `2020/11/19 3pm`,
-      `2020/11/20 1am`,
-    ]
-  },
-  {
-    id: 1,
-    title: `Paper 2`,
-    authors: `Mr. Goo Bar, Mrs. ABC DEF`,
-    presenationSlots: [
-      `2020/11/19 3pm`,
-      `2020/11/20 1am`,
-    ]
-  },
-  {
-    id: 2,
-    title: `Paper 3`,
-    authors: `Mr. Eoo Bar, Mrs. ABC DEF`,
-    presenationSlots: [
-      `2020/11/19 3pm`,
-      `2020/11/20 1am`,
-    ]
-  },
-]
+const talkTutorialVideos = require("./src/content/talk-tutorial-videos.json")
 
 const sectionMenuGroup = {
   calls:[
@@ -155,12 +126,17 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       videolectureID: ``,
       ...urls
     }
-  })
+  }).concat(talkTutorialVideos.map(t => {
+    return {
+      id: t.by.toLowerCase().replace(/ /g, "-"),
+      ...t
+    }
+  }))
 
   videos.forEach( p => {
-    console.log(`Creating ${p.title}`)
+    console.log(`Creating video page for ${p.type}-${p.title}`)
     createPage({
-      path: `video/${p.type}-${p.id}`,
+      path: `video/${p.type}/${p.id}`,
       component: videoTemplate,
       context: p
     })

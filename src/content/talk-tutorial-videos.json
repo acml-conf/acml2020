@@ -1,0 +1,61 @@
+[
+    {
+        "type": "tutorial",
+        "videolectureID": "",
+        "title": "Optimization methods for ML",
+        "abstract": "Machine learning algorithms often use optimization to solve problems: for example, when model(s) are constructed to data, they are usually trained by solving an underlying optimization problem. This helps to learn parameters of loss functions and possibly regularization functions if they are used. In the process of model selection and validation, the optimization problem may be solved many times. This entwining of machine learning and optimization makes it possible for researchers to use advances in mathematical programming to study the speed, accuracy and robustness of machine learning algorithms. In this tutorial, we will investigate how popular machine learning algorithms can be posed as unconstrained optimization problems and solved using well known techniques in literature including Line Search Methods, Newton and Quasi-Newton methods, and Conjugate-Gradient and Projection methods. Implementation of algorithms and illustrative examples in the R programming language will be presented.",
+        "by": "Haimonti Dutta"
+    },
+    {
+        "type": "tutorial",
+        "videolectureID": "",
+        "title": "Recent Advances in Bayesian Optimization",
+        "abstract": "Bayesian optimization (BO) has emerged as an exciting sub-field of machine learning and artificial intelligence that is concerned with optimization using probabilistic methods. Systems implementing BO techniques have been successfully used to solve difficult problems in a diverse set of applications, including automatic tuning of machine learning algorithms, experimental designs, and many other systems. Several recent advances in the methodologies and theory underlying BO have extended the framework to new applications and provided greater insights into the behavior of these algorithms. Bayesian optimization is now increasingly being used in industrial settings, providing new and interesting challenges that require new algorithms and theoretical insights. Therefore, I think having a tutorial on Bayesian optimization for ACML audience is timely, useful, and practical for both academia and industries to know the recent advances on Bayesian optimization in a systematic manner. The topics of this tutorial consists of two main parts. In the first part, I will go into detail the BO in the standard setting. In the second part, I will present the current advances in Bayesian optimization including (1) batch BO, (2) high dimensional BO and (3) mixed categorical-continuous BO. In the end of the talk, I also outline the possible future research directions in Bayesian optimization.",
+        "by": "Vu Nguyen"
+    },
+    {
+        "type": "tutorial",
+        "videolectureID": "",
+        "title": "Towards Neural Architecture Search: Challenges and Solutions",
+        "abstract": "In recent years, a large number of related algorithms for Neural Architecture Search (NAS) have emerged. They have made various improvements to the NAS algorithm, and the related research work is complicated and rich. In order to reduce the difficulty for beginners to conduct NAS-related research, in this tutorial, we will provide a new perspective: starting with an overview of the characteristics of the earliest NAS algorithms, summarizing the problems in these early NAS algorithms, and then giving solutions for subsequent related research work. In addition, we will conduct a detailed and comprehensive analysis, comparison and summary of these works. Finally, we will give possible future research directions",
+        "by": "Xiaojun Chang"
+    },
+    {
+        "type": "tutorial",
+        "videolectureID": "",
+        "title": "Machine Learning methods for time series forecasting",
+        "abstract": "Though machine learners claim for potentially decades that their methods yield great performance for time series forecasting, until recently machine learning methods were not able to outperform even simple benchmarks in forecasting competitions, and did not play a role in practical applications. This has changed in the last 3-4 years, with methods being able to win several prestigious competitions. The models are now competitive as more series, and longer series due to higher sampling rates, are typically available. In this tutorial, we will briefly recap the history of the field of forecasting and its developments parallel to machine learning, and then discuss recent developments in the field, around learning across series, multivariate forecasting, recurrent neural networks, CNNs, and other models, and how they are now able to outperform traditional methods.",
+        "by": "Christoph Bergmeir"
+    },
+    {
+        "type": "tutorial",
+        "videolectureID": "",
+        "title": "Tensor Networks in Machine Learning: Recent Advances and Frontiers",
+        "abstract": "Tensor Networks (TNs) are factorizations of high dimensional tensors into networks of many low-dimensional tensors, which have been studied in quantum physics, high-performance computing, and applied mathematics. In recent years, TNs have been increasingly investigated and applied to machine learning and signal processing, due to its significant advances in handling large-scale and high-dimensional problems, model compression in deep neural networks, and efficient computations for learning algorithms. This tutorial aims to present a broad overview of recent progress of TNs technology applied to machine learning from perspectives of basic principle and algorithms, novel approaches in unsupervised learning, tensor completion, multi-task, multi-model learning and various applications in DNN, CNN, RNN, LSTM and etc. We also discuss the future research directions and new trend in this area.",
+        "by": "Qibin Zhao"
+    },
+    {
+        "type": "invited-talk",
+        "title": "Rethinking the role of optimization in learning",
+        "abstract": "In this talk, I will overview recent results towards understanding how we learn large capacity machine learning models. In the modern practice of machine learning, especially deep learning, many successful models have far more trainable parameters compared to the number of training examples. Consequently, the optimization objective for training such models have multiple minimizers that perfectly fit the training data. More problematically, while some of these minimizers generalize well to new examples, most minimizers will simply overfit or memorize the training data and will perform poorly on new examples. In practice though, when such ill-posed objectives are minimized using local search algorithms like (stochastic) gradient descent ((S)GD), the \"special\" minimizers returned by these algorithms have remarkably good performance on new examples. In this talk, we will explore the role optimization algorithms like (S)GD in learning overparameterized models in simpler setting of learning linear predictors.",
+        "by": "Suriya Gunasekar"
+    },
+    {
+        "type": "invited-talk",
+        "title": "Open domain dialogue response generation: models and evaluation metrics",
+        "abstract": "Dialogue response generation is an important AI research topic. We are investigating this topic with the open domain perspective, meaning the topics of the dialogues are not pre-specified. I describe a new model called Variable Hierarchical User-based Conversation Model which considers the previous dialogues among users, as well as their social network connections. I then describe a new evaluation metric called Speaker Sensitive Response Evaluation Model which correlates better with human judgments. These are described in our recent EMNLP 2019 and ACL 2020 papers.",
+        "by": "Alice Oh"
+    },
+    {
+        "type": "invited-talk",
+        "title": "Neuralizing Algorithms",
+        "abstract": "TBA", 
+        "by": "Lee Wee Sun"
+    },
+    {
+        "type": "invited-talk",
+        "title": "Fast and Accurate Neural Learning with Limited Memory Size, Limited Energy Supply, and Class Drift Constraints in Streaming Data Environment",
+        "abstract": "Tremendous data have been generated in almost every field of industrial and scientific applications and researches Due to the advancement of Internet and new sensor equipment. This situation creates a crisis of memory overflow, where the amount of continuously incoming data is larger than the physical size of memory. Most of the developed neural learning algorithms were designed without seriously considering this memory overflow crisis. It is assumed that all learning data including present data and new incoming data must be retained inside the memory throughout the learning process. This assumption is unrealistic and impractical in the streaming data environment. Furthermore, the number of learning epochs cannot be controlled, which implies that the energy consumption for achieving the learning process may exceed the available energy supply such as a battery. This talk will discuss a new concept of neural learning, the supporting architecture, and the relevant theoretical foundation to achieve the efficient leaning process with high accuracy under the constraints of memory overflow and controllable polynomial time complexity.",
+        "by": "Chidchanok Lursinsap"
+    }
+]

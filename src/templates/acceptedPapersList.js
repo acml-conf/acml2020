@@ -14,7 +14,7 @@ const papers = require("../content/acml-papers.json")
 
 const Paper = ({id, title, authors}) => {
     return <li key={title}>
-        <a href={withPrefix(`video/paper-${id}`)}>
+        <a href={withPrefix(`video/paper/${id}`)}>
             <b>{title}</b>
         </a>
         <br/>
