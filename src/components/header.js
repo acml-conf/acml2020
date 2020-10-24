@@ -12,10 +12,7 @@ import { HamburgerButton } from 'react-hamburger-button';
 const menus = [
   { name: `News`, url: `/news`},
   { name: `Program`, url: `/program/papers`},
-  { name: `Registration`, url: `/registration`},
 ]
-
-
 
 const HeaderLink = ({children, to, location}) => {
   const path = location.pathname

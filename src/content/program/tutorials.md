@@ -18,7 +18,7 @@ Machine learning algorithms often use optimization to solve problems: for exampl
 
 ### T2: Recent Advances in Bayesian Optimization
 
-By  **Vu Nguyen**, University of Oxford | Date: **TBD** | [Tutorial Website](https://ntienvu.github.io/BayesianOptimizationTutorial_ACML2020.html)
+By  **Vu Nguyen**, University of Oxford | Date: **TBD** | [Tutorial Website](http://vu-nguyen.org/BOTutorial_ACML20.html)
 
 <details>
     <summary>Abstract</summary>
