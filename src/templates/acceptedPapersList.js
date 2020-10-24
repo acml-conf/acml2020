@@ -1,5 +1,7 @@
 import React from "react"
 
+import { withPrefix } from "gatsby"
+
 const papers = require("../content/acml-papers.json")
     .map(p => {
         return {
@@ -10,15 +12,18 @@ const papers = require("../content/acml-papers.json")
     .sort( (a, b) => a.title.localeCompare(b.title))
 
 
-const Paper = ({title, authors}) => {
+const Paper = ({id, title, authors}) => {
     return <li key={title}>
-        <b>{title}</b><br/>
+        <a href={withPrefix(`video/paper-${id}`)}>
+            <b>{title}</b>
+        </a>
+        <br/>
         {authors}
     </li>
 }
 
 const AcceptedPapersList = () => {
-    console.log(papers)
+
     const journalPapers = papers.filter(p => p.crossref === "Journal Track")
     const confPapers = papers.filter(p => p.crossref === "acml20")
 
@@ -28,7 +33,7 @@ const AcceptedPapersList = () => {
         <ul css={{listStyle: `none`, padding: 0, margin: 0}}>
             {
                 journalPapers.map(
-                    paper => <Paper title={paper.title} authors={paper.author}/>
+                    paper => <Paper id={paper.ID} title={paper.title} authors={paper.author}/>
                 )
             }
         </ul><br/>
@@ -37,7 +42,7 @@ const AcceptedPapersList = () => {
         <ul css={{listStyle: `none`, padding: 0, margin: 0}}>
             {
                 confPapers.map(
-                    paper => <Paper title={paper.title} authors={paper.author}/>
+                    paper => <Paper id={paper.ID} title={paper.title} authors={paper.author}/>
                 )
             }
         </ul>
