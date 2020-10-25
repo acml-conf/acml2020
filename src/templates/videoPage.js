@@ -11,6 +11,8 @@ const linkMappings = [
   { name: `pdfURL`, desc: `Download PDF`},
 ]
 
+const hideChatSection = true
+
 export default function Template({data, pageContext}){
   return <Layout>
     <SEO title={`${pageContext.title} by ${pageContext.by}`}/>
@@ -49,19 +51,27 @@ export default function Template({data, pageContext}){
       <b>Abstract</b><br/>
       {pageContext.abstract}
     </p>
-    <Utterances
-      repo="acml-conf/acml2020"
-      issueTerm="url"
-      label="web-comment"
-      theme="github-light"
-      crossorigin="anonymous"
-      async={false}
-      style={`
-      & .utterances {
-        max-width: 950px;
-      }
-    `}
-    />
+    {
+      !hideChatSection && <Utterances
+        repo="acml-conf/acml2020"
+        issueTerm="url"
+        label="web-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async={false}
+        style={`
+        & .utterances {
+          max-width: 950px;
+        }
+      `}
+      />
+    }
+
+    {
+      hideChatSection && <div>
+        Chat section will be activated soon.
+      </div>
+    }
 
   </Layout>
 }
