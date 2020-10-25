@@ -43,15 +43,15 @@ title: ""
 
 - [Prachya Boonkwan](https://saki.siit.tu.ac.th/thainlp/prachya-boonkwan/), NECTEC
 <!-- - Sukree Sinthupinyo <sukree@cp.eng.chula.ac.th> (unconfirmed) -->
-- [Taiji Suzuki](http://ibis.t.u-tokyo.ac.jp/suzuki/),  University of Tokyo
+- [Taiji Suzuki](http://ibis.t.u-tokyo.ac.jp/suzuki/),  The University of Tokyo
 
 ### Web Chair
 - [Pattarawat Chormai](https://pat.chormai.org), Technical University of Berlin and Max Planck School of Cognition
 
 
 ### Volunteers
-- [Nontawat Charoenphakdee](https://nolfwin.github.io), University of Tokyo
-- [Zhenghang Cui](https://scholar.google.com/citations?user=qbw6nMgAAAAJ&hl=en), University of Tokyo
+- [Nontawat Charoenphakdee](https://nolfwin.github.io), The University of Tokyo
+- [Zhenghang Cui](https://blog.henryfren.ch/about), The University of Tokyo
 
 ## ACML Distinguished Contribution Award Commitee
 - [Geoff Holmes](https://www.cms.waikato.ac.nz/people/geoff), Waikato University
