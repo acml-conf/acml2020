@@ -62,7 +62,7 @@ const Layout = ({ children }) => {
             <b>Follow us:</b> <a css={{color: `white`}} href="https://github.com/acml-conf/acml2020"><FontAwesomeIcon icon={faGithub}/></a>
             <div css={{fontSize: "0.8em", color:"gray"}}>
               Last updated: {data.currentBuildDate.currentDate} (v{packageData.version})
-            </d/iv>
+            </div>
           </div>
 
         <b><a css={{color: `white`}} href={withPrefix("organization")}>ACML2020 Organization</a></b> <br/>
