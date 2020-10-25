@@ -64,7 +64,7 @@ Alice Oh is an Associate Professor in the School of Computing at KAIST and direc
 
 **Abstract:**
 
-TBA
+Most AI problems that we would like to solve are computationally intractable in the worst case. However, we are mostly interested in solving a small fraction of possible problems, those that occur in the real world. Approximation algorithms work well on some of these problems but are not tuned for the target problem distribution. Machine learning provides the tools to develop approximation algorithms that work well on problems encountered in practice, by training the algorithms on problems sampled from real world distributions. We modify known approximation algorithms and augment them with learnable components to allow learning of more powerful approximation algorithms that are then tuned to work on the target problem distribution. We demonstrate how to do this by developing Factor Graph Neural Network, a high order graph neural network based on loopy belief propagation on factor graphs and Particle Filter Recurrent Neural Network, a recurrent neural network based on particle filters. We also examine the advantages of decomposing a large problem into algorithmic components to simplify the design of a large system, while doing end-to-end learning to ensure that the entire system works well on the target problem distribution.
 
 **Bio:**
 
