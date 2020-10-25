@@ -7,7 +7,7 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, withPrefix } from "gatsby"
 import { config } from "@fortawesome/fontawesome-svg-core";
 
 import { DESKTOP_MIN_WIDTH, media } from "../style"
@@ -62,10 +62,10 @@ const Layout = ({ children }) => {
             <b>Follow us:</b> <a css={{color: `white`}} href="https://github.com/acml-conf/acml2020"><FontAwesomeIcon icon={faGithub}/></a>
             <div css={{fontSize: "0.8em", color:"gray"}}>
               Last updated: {data.currentBuildDate.currentDate} (v{packageData.version})
-            </div>
+            </d/iv>
           </div>
 
-        <b><a css={{color: `white`}} href="http://www.acml-conf.org/2020/organization">ACML2020 Organization</a></b> <br/>
+        <b><a css={{color: `white`}} href={withPrefix("organization")}>ACML2020 Organization</a></b> <br/>
         Built with
         {` `}
         <a css={{color: `white`}} href="https://www.gatsbyjs.org">Gatsby</a>;
