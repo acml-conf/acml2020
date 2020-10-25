@@ -14,8 +14,6 @@ const menus = [
   { name: `Program`, url: `/program/papers`},
 ]
 
-
-
 const HeaderLink = ({children, to, location}) => {
   const path = location.pathname
 

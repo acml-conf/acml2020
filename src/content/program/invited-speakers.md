@@ -6,17 +6,16 @@ withSectionMenu: true
 ---
 
 import ImageWithPathPrefix from "../../components/imageWithPathPrefix";
+import LinkWithPathPrefix from "../../components/linkWithPathPrefix";
 
 We have four invited speakers at ACML2020.
 
-
-
 |  | Speaker  | Affiliation  | Talk Title  |
 |:---:|:---:|:---:|:---:|
-| <ImageWithPathPrefix width="200px" src="pathPrefix::/invited-speakers/SuriyaGunasekar.jpg"/> | Suriya Gunasekar | Microsoft Research, USA | [Rethinking the role of optimization in learning](#suriya-gunasekar) |
-| <ImageWithPathPrefix width="200px" src="pathPrefix::/invited-speakers/AliceOh.jpg"/> | Alice Oh | KAIST, Korea | [Open domain dialogue response generation: models and evaluation metrics](#alice-oh) |
-| <ImageWithPathPrefix width="200px" src="pathPrefix::/invited-speakers/WeeSunLee.jpg"/> | Lee Wee Sun | National University of Singapore, Singapore | [Neuralizing Algorithms](#lee-wee-sun) |
-| <ImageWithPathPrefix width="200px" src="pathPrefix::/invited-speakers/chidchnok.jpg"/> | Chidchanok Lursinsap | Chulalongkorn University, Thailand |  [Fast and Accurate Neural Learning with Limited Memory Size, Limited Energy Supply, and Class Drift Constraints in Streaming Data Environment](#chidchanok-lursinsap) |
+| <ImageWithPathPrefix width="200px" src="pathPrefix::/invited-speakers/SuriyaGunasekar.jpg"/> | Suriya Gunasekar | Microsoft Research, USA | <LinkWithPathPrefix text="Rethinking the role of optimization in learning" href="pathPrefix::/video/invited-talk/suriya-gunasekar"/>|
+| <ImageWithPathPrefix width="200px" src="pathPrefix::/invited-speakers/AliceOh.jpg"/> | Alice Oh | KAIST, Korea | <LinkWithPathPrefix text="Open domain dialogue response generation: models and evaluation metrics" href="pathPrefix::/video/invited-talk/alice-oh"/> |
+| <ImageWithPathPrefix width="200px" src="pathPrefix::/invited-speakers/WeeSunLee.jpg"/> | Lee Wee Sun | National University of Singapore, Singapore | <LinkWithPathPrefix text="Neuralizing Algorithms" href="pathPrefix::/video/invited-talk/lee-wee-sun"/> |
+| <ImageWithPathPrefix width="200px" src="pathPrefix::/invited-speakers/chidchnok.jpg"/> | Chidchanok Lursinsap | Chulalongkorn University, Thailand |  <LinkWithPathPrefix text="Fast and Accurate Neural Learning with Limited Memory Size, Limited Energy Supply, and Class Drift Constraints in Streaming Data Environment" href="pathPrefix::/video/invited-talk/chidchanok-lursinsap"/> |
 
 ## Speakers' Biographies and Talk Details
 
@@ -65,7 +64,7 @@ Alice Oh is an Associate Professor in the School of Computing at KAIST and direc
 
 **Abstract:**
 
-TBA
+Most AI problems that we would like to solve are computationally intractable in the worst case. However, we are mostly interested in solving a small fraction of possible problems, those that occur in the real world. Approximation algorithms work well on some of these problems but are not tuned for the target problem distribution. Machine learning provides the tools to develop approximation algorithms that work well on problems encountered in practice, by training the algorithms on problems sampled from real world distributions. We modify known approximation algorithms and augment them with learnable components to allow learning of more powerful approximation algorithms that are then tuned to work on the target problem distribution. We demonstrate how to do this by developing Factor Graph Neural Network, a high order graph neural network based on loopy belief propagation on factor graphs and Particle Filter Recurrent Neural Network, a recurrent neural network based on particle filters. We also examine the advantages of decomposing a large problem into algorithmic components to simplify the design of a large system, while doing end-to-end learning to ensure that the entire system works well on the target problem distribution.
 
 **Bio:**
 

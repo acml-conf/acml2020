@@ -1,6 +1,9 @@
+const { publicDecrypt } = require("crypto")
 const path = require(`path`)
 
-// todo: extract this from pages
+const papers = require("./src/content/acml-papers.json")
+const talkTutorialVideos = require("./src/content/talk-tutorial-videos.json")
+
 const sectionMenuGroup = {
   calls:[
     {
@@ -53,6 +56,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
   const blogPostTemplate = path.resolve(`src/templates/page.js`)
   const callTemplate = path.resolve(`src/templates/pageWithMenu.js`)
+  const videoTemplate = path.resolve(`src/templates/videoPage.js`)
+
   const result = await graphql(`
     {
       allMarkdownRemark(
@@ -98,6 +103,43 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       sectionMenu: sectionMenuGroup[group],
       sectionName: group
     }, // additional data can be passed via context
+  })
+
+
+  const videos = papers.map(p => {
+    const urls = p.crossref === "acml20" ?
+      {
+        pmlrURL: `http://proceedings.mlr.press/v129/${p.ID}.html`,
+        pdfURL: `http://proceedings.mlr.press/v129/${p.ID}/${p.ID}.pdf`,
+      } :
+      {
+        jmlrURL: `#jmlrURL`,
+        pdfURL: `#jmlrPDF`,
+      }
+
+    return {
+      type: "paper",
+      id: p.ID,
+      title: p.title,
+      by: p.author,
+      abstract: p.abstract,
+      videolectureID: ``,
+      ...urls
+    }
+  }).concat(talkTutorialVideos.map(t => {
+    return {
+      id: t.by.toLowerCase().replace(/ /g, "-"),
+      ...t
+    }
+  }))
+
+  videos.forEach( p => {
+    console.log(`Creating video page for ${p.type}-${p.title}`)
+    createPage({
+      path: `video/${p.type}/${p.id}`,
+      component: videoTemplate,
+      context: p
+    })
   })
 })
 }

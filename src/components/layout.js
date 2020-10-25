@@ -7,7 +7,7 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, withPrefix } from "gatsby"
 import { config } from "@fortawesome/fontawesome-svg-core";
 
 import { DESKTOP_MIN_WIDTH, media } from "../style"
@@ -53,6 +53,7 @@ const Layout = ({ children }) => {
         <div css={{maxWidth: 1024, margin: `0 auto`, padding: "0 10px"}}>
           <div css={{
               fontSize: `1em`, marginBottom: `10px`,
+              textAlign: `right`,
               [media(DESKTOP_MIN_WIDTH)]: {
                 float: `right`,
                 clear: `both`,
@@ -64,7 +65,7 @@ const Layout = ({ children }) => {
             </div>
           </div>
 
-        <b><a css={{color: `white`}} href="http://www.acml-conf.org/2020/organization">ACML2020 Organization</a></b> <br/>
+        <b><a css={{color: `white`}} href={withPrefix("organization")}>ACML2020 Organization</a></b> <br/>
         Built with
         {` `}
         <a css={{color: `white`}} href="https://www.gatsbyjs.org">Gatsby</a>;
