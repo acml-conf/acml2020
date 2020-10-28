@@ -28,7 +28,7 @@ Bayesian optimization (BO) has emerged as an exciting sub-field of machine learn
 
 ### T3: Towards Neural Architecture Search: Challenges and Solutions
 
-By  **Xiaojun Chang**, Monash University | Date: **TBD** | Tutorial Website
+By  **Xiaojun Chang**, Monash University | Date: **TBD** | [Tutorial Website](https://www.xiaojun.ai/nas-tutorial-acml2020)
 
 <details>
     <summary>Abstract</summary>
@@ -46,7 +46,7 @@ Though machine learners claim for potentially decades that their methods yield g
 
 ### T5: Tensor Networks in Machine Learning: Recent Advances and Frontiers
 
-By  **Qibin Zhao**, RIKEN AIP | Date: **TBD** | Tutorial Website
+By  **Qibin Zhao**, RIKEN AIP | Date: **TBD** | [Tutorial Website](https://qibinzhao.github.io/ACML2020_Tutorial/)
 
 <details>
     <summary>Abstract</summary>
