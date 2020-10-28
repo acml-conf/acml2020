@@ -35,7 +35,7 @@ By  **Xiaojun Chang**, Monash University | Date: **TBD** | [Tutorial Website](ht
     In recent years, a large number of related algorithms for Neural Architecture Search (NAS) have emerged. They have made various improvements to the NAS algorithm, and the related research work is complicated and rich. In order to reduce the difficulty for beginners to conduct NAS-related research, in this tutorial, we will provide a new perspective: starting with an overview of the characteristics of the earliest NAS algorithms, summarizing the problems in these early NAS algorithms, and then giving solutions for subsequent related research work. In addition, we will conduct a detailed and comprehensive analysis, comparison and summary of these works. Finally, we will give possible future research directions
 </details><br/>
 
-### T4: Machine Learning methods for time series forecasting
+### T4: Forecasting for Data Scientists
 
 By  **Christoph Bergmeir**, Monash University | Date: **TBD** | [Tutorial Website](https://cbergmeir.com/talks/acml-tutorial/)
 
