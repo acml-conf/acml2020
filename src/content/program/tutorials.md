@@ -37,7 +37,7 @@ By  **Xiaojun Chang**, Monash University | Date: **TBD** | [Tutorial Website](ht
 
 ### T4: Machine Learning methods for time series forecasting
 
-By  **Christoph Bergmeir**, Monash University | Date: **TBD** | Tutorial Website
+By  **Christoph Bergmeir**, Monash University | Date: **TBD** | [Tutorial Website](https://cbergmeir.com/talks/acml-tutorial/)
 
 <details>
     <summary>Abstract</summary>
