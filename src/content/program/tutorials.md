@@ -8,7 +8,7 @@ withSectionMenu: true
 
 ### T1: Optimization methods for ML
 
-By  **Haimonti Dutta**, University of Buffalo | Date: **TBD** | Tutorial Website
+By  **Haimonti Dutta**, University of Buffalo | Date: **TBD** | [Tutorial Website](http://www.acsu.buffalo.edu/~haimonti/tutorial.html)
 
 <details>
     <summary>Abstract</summary>
