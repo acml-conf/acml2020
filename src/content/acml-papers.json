@@ -487,7 +487,7 @@
 	},
 	{
 	   "pages":null,
-	   "abstract":null,
+	   "abstract": "Human beings may make random guesses in decision-making. Occasionally, their guesses may generate consistency with the real situation. This kind of consistency is termed random consistency. In the area of machine leaning, the randomness is unavoidable and ubiquitous in learning algorithms. However, the accuracy (A), which is a fundamental performance measure for machine learning, does not recognize the random consistency. This causes that the classifiers learnt by A contain the random consistency. The random consistency may cause an unreliable evaluation and harm the generalization performance. To solve this problem, the pure accuracy (PA) is defined to eliminate the random consistency from the A. In this paper, we mainly study the necessity, learning consistency and leaning method of the PA. We show that the PA is insensitive to the class distribution of classifier and is more fair to the majority and the minority than A. Subsequently, some novel generalization bounds on the PA and A are given. Furthermore, we show that the PA is Bayes-risk consistent in finite and infinite hypothesis space. We design a plug-in rule that maximizes the PA, and the experiments on twenty benchmark data sets demonstrate that the proposed method performs statistically better than the logistic regression in terms of PA and comparable performance in terms of A. Compared with the other plug-in rules that optimize the PA, the proposed method obtains much better performance.",
 	   "crossref":"Journal Track",
 	   "author":"Jieting Wang, Yuhua Qian, and Feijiang Li",
 	   "title":"Learning with Mitigating Random Consistency from the Accuracy Measure",
@@ -496,7 +496,7 @@
 	},
 	{
 	   "pages":null,
-	   "abstract":null,
+	   "abstract": "In this paper, we study the problem of estimating latent variable models with arbitrarily corrupted samples in high dimensional space (i.e., $d\\gg n$) where the underlying parameter is assumed to be sparse. Specifically, we propose a method called Trimmed (Gradient) Expectation Maximization which adds a trimming gradients step and a hard thresholding step to the  Expectation step (E-step) and  the Maximization step (M-step), respectively. We show that  under some mild assumptions and with an appropriate initialization,  the algorithm is corruption-proofing and converges to the (near) optimal statistical rate geometrically when the fraction of the corrupted samples  $\\epsilon$ is bounded by $ \\tilde{O}(\\frac{1}{\\sqrt{n}})$. Moreover, we apply our general framework to three canonical models: mixture of Gaussians, mixture of regressions and linear regression with missing covariates.  Our theory is supported by thorough numerical results.",
 	   "crossref":"Journal Track",
 	   "author":"Di Wang, Xiangyu Guo, Shi Li, and Jinhui Xu",
 	   "title":"Robust High Dimensional Expectation Maximization Algorithm via Trimmed Hard Thresholding",
@@ -505,7 +505,7 @@
 	},
 	{
 	   "pages":null,
-	   "abstract":null,
+	   "abstract": "Automatically generating a human-like description for a given image is a potential research in artificial intelligence, which has attracted a great of attention recently. Most of the existing attention methods explore the mapping relationships between words in sentence and regions in image, such unpredictable matching manner sometimes causes inharmonious alignments that may reduce the quality of generated captions. In this paper, we make our efforts to reason about more accurate and meaningful captions. We first propose word attention to improve the correctness of visual attention when generating sequential descriptions word-by-word. The special word attention emphasizes on word importance when focusing on different regions of the input image, and makes full use of the internal annotation knowledge to assist the calculation of visual attention. Then, in order to reveal those incomprehensible intentions that cannot be expressed straightforwardly by machines, we inject external knowledge extracted from knowledge graphs into the encoder-decoder framework to facilitate meaningful captioning. We validate our model on two freely available captioning benchmarks: Microsoft COCO dataset and Flickr30k dataset. The results demonstrate that our approach achieves state-of-the-art performance and outperforms many of the existing approaches.",
 	   "crossref":"Journal Track",
 	   "author":"Feicheng Huang, Zhixin Li, Haiyang Wei, Canlong Zhang, and Huifang Ma",
 	   "title":"Boost Image Captioning with Knowledge Reasoning",
@@ -514,7 +514,7 @@
 	},
 	{
 	   "pages":null,
-	   "abstract":null,
+	   "abstract": "How can we compute pseudoinverse of a sparse feature matrix efficiently and accurately for solving optimization problems? A pseudoinverse is a generalization of a matrix inverse, which has been extensively utilized as a fundamental building block for solving linear systems in machine learning. However, an approximate computation, let alone an exact computation, of pseudoinverse is very time-consuming due to its demanding time complexity, which limits it from being applied to large data. In this paper, we propose FastPI, a novel incremental singular value decomposition (SVD) based pseudoinverse method for sparse matrices. Based on the observation that many real-world feature matrices are sparse and highly skewed, FastPI reorders and divides the feature matrix and incrementally computes low-rank SVD from the divided components. To show the efficacy of proposed FastPI, we apply them in real-world multi-label linear regression problems. Through extensive experiments, we demonstrate that FastPI,  without loss of accuracy, computes the pseudoinverse up to 496% faster than other approximate methods and uses much less memory compared to full-rank SVD based approach. Results imply that our method efficiently computes the low-rank pseudoinverse of a large and sparse matrix that other existing methods cannot handle with limited time and space.",
 	   "crossref":"Journal Track",
 	   "author":"Jinhong Jung and Lee Sael",
 	   "title":"Fast and Accurate Pseudoinverse with Sparse Matrix Reordering and Incremental Approach",
@@ -523,7 +523,7 @@
 	},
 	{
 	   "pages":null,
-	   "abstract":null,
+	   "abstract": "Adversarial black-box attacks aim to craft adversarial perturbations by querying input?output pairs of machine learning models. They are widely used to evaluate the robustness of pre-trained models. However, black-box attacks often su?er from the issue of query ine?ciency due to the high dimensionality of the input space, and therefore incur a false sense of model robustness. In this paper, we relax the conditions of the black-box threat model, and propose a novel technique called the spanning attack. By constraining adversarial perturbations in a low-dimensional subspace via spanning an auxiliary unlabeled dataset, the spanning attack signi?cantly improves the query e?ciency of black-box attacks. Extensive experiments show that the proposed method works favorably in both soft-label and hard-label black-box attacks.",
 	   "crossref":"Journal Track",
 	   "author":"Lu Wang, Huan Zhang, Jinfeng Yi, Cho-Jui Hsieh, and Yuan Jiang",
 	   "title":"Spanning attack: reinforce black-box attacks with unlabeled data",
@@ -532,7 +532,7 @@
 	},
 	{
 	   "pages":null,
-	   "abstract":null,
+	   "abstract": "In supervised learning, we often face with ambiguous (A) samples that are difficult to label even by domain experts. In this paper, we consider a binary classification problem in the presence of such A samples. This problem is substantially different from semi-supervised learning since unlabeled samples are not necessarily difficult samples. Also, it is different from 3-class classification with the positive (P), negative (N), and A classes since we do not want to classify test samples into the A class. Our proposed method extends binary classification with reject option, which trains a classifier and a rejector simultaneously using P and N samples based on the 0-1-c loss with rejection cost c. More specifically, we propose to train a classifier and a rejector under the 0-1-c-d loss using P, N, and A samples, where d is the misclassification penalty for ambiguous samples. In our practical implementation, we use a convex upper bound of the 0-1-c-d loss for efficiently training a classifier. Numerical experiments demonstrate that our method can successfully utilize the additional information brought by such A training data.",
 	   "crossref":"Journal Track",
 	   "author":"Naoyo Otani, Yosuke Otsubo, Tetsuya Koike, and Masashi Sugiyama",
 	   "title":"Binary classification with ambiguous training data",
