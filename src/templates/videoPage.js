@@ -1,5 +1,10 @@
 import React from "react"
 
+import ReactMarkdown from 'react-markdown'
+import {InlineMath, BlockMath} from 'react-katex'
+import RemarkMathPlugin from 'remark-math'
+import 'katex/dist/katex.min.css'
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -10,6 +15,11 @@ const linkMappings = [
   { name: `jmlrURL`, desc: `Link to JMLR`},
   { name: `pdfURL`, desc: `Download PDF`},
 ]
+
+const renderers = {
+  inlineMath: ({value}) => <InlineMath math={value}/>,
+  math: ({value}) => <BlockMath math={value}/>
+}
 
 const hideChatSection = true
 
@@ -47,10 +57,17 @@ export default function Template({data, pageContext}){
 
 
     <h4 style={{textDecoration: `none`, margin: 0, marginTop: `5px`}}>By {pageContext.by}</h4>
-    <p style={{marginTop: `10px`, padding: `10px`, backgroundColor: `#eee`, borderRadius: `5px`}}>
+    <div style={{marginTop: `10px`, padding: `10px`, backgroundColor: `#eee`, borderRadius: `5px`}}>
       <b>Abstract</b><br/>
-      {pageContext.abstract}
-    </p>
+      {/* {} */}
+      <ReactMarkdown
+        style={{marginBottom: 0, '> p': {marginBottom: 0}}}
+        plugins={[RemarkMathPlugin]}
+        renderers={renderers}
+      >
+        {pageContext.abstract}
+      </ReactMarkdown>
+    </div>
     {
       !hideChatSection && <Utterances
         repo="acml-conf/acml2020"
