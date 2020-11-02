@@ -25,7 +25,7 @@ const news = [
   },
   {
     date: `2020/10/08`,
-    content: `~~Our registration portal is now open! 🎉~~`,
+    content: `We've sent out the registration link to the authors of accepted papers!`,
   },
   {
     date: `2020/10/22`,
