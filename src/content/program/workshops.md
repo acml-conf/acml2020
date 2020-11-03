@@ -26,9 +26,16 @@ This workshop will discuss the fundamental theory of weakly-supervised represent
 (information retrieval), and weakly-supervised medical image segmentation (healthcare analysis).
 </details><br/>
 
-### W2: AI for Aging, Rehabilitation and Independent Assisted Living (ARIAL)
+### W3: Machine Learning in Thailand
 
-Date: **TBD** | Workshop Website
+Date: **TBD** | [Workshop Website](https://acml-conf.github.io/2020-workshop-ml-in-thailand/)
+
+<br/>
+<hr/>
+
+### ~~W2: (cancelled) AI for Aging, Rehabilitation and Independent Assisted Living (ARIAL)~~
+
+~~The organizer has cancelled the workshop~~.
 
 <details>
     <summary>Abstract</summary>
