@@ -60,7 +60,7 @@
 	   "author":"Li Zhonghong, Yi Yang, She Ying, Song Jialun, and Wu Yukun",
 	   "title":"AARM: Action Attention Recalibration Module for Action Recognition",
 	   "ENTRYTYPE":"inproceedings",
-	   "ID":"li20a"
+	   "ID":"zhonghong20a"
 	},
 	{
 	   "pages":"113 - 128",
@@ -429,7 +429,7 @@
 	   "author":"Wenye Li",
 	   "title":"Scalable Calibration of Affinity Matrices from Incomplete Observations",
 	   "ENTRYTYPE":"inproceedings",
-	   "ID":"li20b"
+	   "ID":"li20a"
 	},
 	{
 	   "pages":"769 - 781",
@@ -465,7 +465,7 @@
 	   "author":"Liu Qidong, Tian Feng, Ji Weihua, and Zheng Qinghua",
 	   "title":"A New Representation Learning Method for Individual Treatment Effect Estimation: Split Covariate Representation Network",
 	   "ENTRYTYPE":"inproceedings",
-	   "ID":"liu20b"
+	   "ID":"qidong20a"
 	},
 	{
 	   "pages":"823--836",
