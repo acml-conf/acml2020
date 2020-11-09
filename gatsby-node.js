@@ -123,7 +123,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       title: p.title,
       by: p.author,
       abstract: p.abstract,
-      videolectureID: ``,
+      videolectureId: ``, // todo
       ...urls
     }
   }).concat(talkTutorialVideos.map(t => {
