@@ -31,7 +31,7 @@ export default function Template({data, pageContext}){
     <div style={{marginTop: `5px`, textAlign: `right`}}>
       {
         linkMappings.filter(l => {
-          return l.name in pageContext
+          return l.name in pageContext && pageContext[l.name]
         }).map( (l, i) => {
           return <a key={i} style={{marginLeft: `5px`}} href={pageContext[l.name]}>[{l.desc}]</a>
         })
