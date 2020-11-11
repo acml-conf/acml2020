@@ -36,6 +36,8 @@ In this talk, I will overview recent results towards understanding how we learn 
 
 Suriya Gunasekar is a Senior Researcher in the Machine Learning and Optimization (MLO) group at Microsoft Research at Redmond. Prior to joining MSR, she was a Research Assistant Professor at Toyota Technological Institute at Chicago. She received her PhD in Electrical and Computer Engineering from The University of Texas at Austin. 
 
+<hr/>
+
 ### Alice Oh
 <div align="center">
     <ImageWithPathPrefix width="200px" src="pathPrefix::/invited-speakers/AliceOh.jpg"/> 
@@ -52,6 +54,8 @@ Dialogue response generation is an important AI research topic. We are investiga
 **Bio:**
 
 Alice Oh is an Associate Professor in the School of Computing at KAIST and directs the Users and Information Lab. She received MS in Language and Information Technologies from CMU and PhD in Computer Science from MIT. Her main research interests are in developing ML techniques for NLP, applying them to human social behavior data, and improving CS education with ML. She serves the ML and NLP research communities by reviewing and chairing for conferences including ACL, EMNLP, ACML, ICML, NeurIPS, and ICLR. Her most recent service is co-Program Chair of ICLR 2021.
+
+<hr/>
 
 ### Lee Wee Sun
 <div align="center">
@@ -72,6 +76,7 @@ Lee Wee Sun is a professor in the Department of Computer Science, National Unive
 
 His research interests include machine learning, planning under uncertainty, and approximate inference. He has been an area chair for machine learning and AI conferences such as the Neural Information Processing Systems (NeurIPS), the International Conference on Machine Learning (ICML), the AAAI Conference on Artificial Intelligence (AAAI), and the International Joint Conference on Artificial Intelligence (IJCAI). He was a program, conference and journal track co-chair for the Asian Conference on Machine Learning (ACML), and he is currently the co-chair of the steering committee of ACML.
 
+<hr/>
 
 ### Chidchanok Lursinsap
 <div align="center">
