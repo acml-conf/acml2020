@@ -7,7 +7,7 @@ withSectionMenu: true
 
 ### W1: Weakly-supervised Representation Learning
 
-Date: **TBD** | [Workshop Website](https://wsl-workshop.github.io/acml20.html)
+Date: **November 18, 8:30-11:50pm** | [Workshop Website](https://wsl-workshop.github.io/acml20.html)
 
 <details>
     <summary>Abstract</summary>
@@ -28,7 +28,7 @@ This workshop will discuss the fundamental theory of weakly-supervised represent
 
 ### W3: Machine Learning in Thailand
 
-Date: **TBD** | [Workshop Website](https://acml-conf.github.io/2020-workshop-ml-in-thailand/)
+Date: **November 18, 6:30-9:00pm**  | [Workshop Website](https://acml-conf.github.io/2020-workshop-ml-in-thailand/)
 
 <br/>
 <hr/>
