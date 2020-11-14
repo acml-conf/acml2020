@@ -492,7 +492,8 @@
 	   "author":"Jieting Wang, Yuhua Qian, and Feijiang Li",
 	   "title":"Learning with Mitigating Random Consistency from the Accuracy Measure",
 	   "ENTRYTYPE":null,
-	   "ID": "j-wang20a"
+	   "ID": "j-wang20a",
+	   "url": "https://github.com/jieting682822/github.io/blob/gh-pages/template.pdf"
 	},
 	{
 	   "pages":null,
@@ -501,7 +502,8 @@
 	   "author":"Di Wang, Xiangyu Guo, Shi Li, and Jinhui Xu",
 	   "title":"Robust High Dimensional Expectation Maximization Algorithm via Trimmed Hard Thresholding",
 	   "ENTRYTYPE":null,
-	   "ID": "j-wang20b"
+	   "ID": "j-wang20b",
+	   "url": "https://arxiv.org/abs/2010.09576"
 	},
 	{
 	   "pages":null,
@@ -510,7 +512,8 @@
 	   "author":"Feicheng Huang, Zhixin Li, Haiyang Wei, Canlong Zhang, and Huifang Ma",
 	   "title":"Boost Image Captioning with Knowledge Reasoning",
 	   "ENTRYTYPE":null,
-	   "ID": "j-huang20a"
+	   "ID": "j-huang20a",
+	   "url": "https://arxiv.org/abs/2011.00927"
 	},
 	{
 	   "pages":null,
@@ -519,7 +522,8 @@
 	   "author":"Jinhong Jung and Lee Sael",
 	   "title":"Fast and Accurate Pseudoinverse with Sparse Matrix Reordering and Incremental Approach",
 	   "ENTRYTYPE":null,
-	   "ID": "j-jung20a"
+	   "ID": "j-jung20a",
+	   "url": "https://arxiv.org/abs/2011.04235"
 	},
 	{
 	   "pages":null,
@@ -528,7 +532,8 @@
 	   "author":"Lu Wang, Huan Zhang, Jinfeng Yi, Cho-Jui Hsieh, and Yuan Jiang",
 	   "title":"Spanning attack: reinforce black-box attacks with unlabeled data",
 	   "ENTRYTYPE":null,
-	   "ID": "j-wang20c"
+	   "ID": "j-wang20c",
+	   "url": "https://arxiv.org/abs/2005.04871"
 	},
 	{
 	   "pages":null,
@@ -537,6 +542,7 @@
 	   "author":"Naoyo Otani, Yosuke Otsubo, Tetsuya Koike, and Masashi Sugiyama",
 	   "title":"Binary classification with ambiguous training data",
 	   "ENTRYTYPE":null,
-	   "ID": "j-otani20a"
+	   "ID": "j-otani20a",
+	   "url": "https://arxiv.org/abs/2011.02598"
 	}
  ]

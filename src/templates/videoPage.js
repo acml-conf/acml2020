@@ -21,7 +21,7 @@ const renderers = {
   math: ({value}) => <BlockMath math={value}/>
 }
 
-const hideChatSection = true
+const hideChatSection = false
 
 export default function Template({data, pageContext}){
   return <Layout>
@@ -31,7 +31,7 @@ export default function Template({data, pageContext}){
     <div style={{marginTop: `5px`, textAlign: `right`}}>
       {
         linkMappings.filter(l => {
-          return l.name in pageContext
+          return l.name in pageContext && pageContext[l.name]
         }).map( (l, i) => {
           return <a key={i} style={{marginLeft: `5px`}} href={pageContext[l.name]}>[{l.desc}]</a>
         })
@@ -44,14 +44,9 @@ export default function Template({data, pageContext}){
     <div css={{width: `100%`, marginTop: `10px`}}>
       { pageContext.videolectureId &&
         <iframe
-          src="//videolectures.net/lawandethics2017_wilson_algorithmic_patrol/iframe/1/"
+          src={`//videolectures.net/acml2020_${pageContext.videolectureId}/iframe/1/`}
           style={{border: 0, width: `100%`, height: `425px`, marginBottom: `0px`}}
         />
-      }
-      {
-        !pageContext.videolectureId && <div style={{height: `425px`, width: `100%`, background: `lightgray`}}>
-          (video is in preparation (debug msg: current videolecture id is null)
-        </div>
       }
     </div>
 

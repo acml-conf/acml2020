@@ -5,10 +5,12 @@ path: /program/tutorials
 withSectionMenu: true
 ---
 
+import LinkWithPathPrefix from "../../components/linkWithPathPrefix";
+
 
 ### T1: Optimization methods for ML
 
-By  **Haimonti Dutta**, University of Buffalo | Date: **TBD** | [Tutorial Website](http://www.acsu.buffalo.edu/~haimonti/tutorial.html)
+By  **Haimonti Dutta**, University of Buffalo | <LinkWithPathPrefix text="Video" href="pathPrefix::/video/tutorial/haimonti-dutta"/> | [Tutorial Website](http://www.acsu.buffalo.edu/~haimonti/tutorial.html)
 
 <details>
     <summary>Abstract</summary>
@@ -18,7 +20,7 @@ Machine learning algorithms often use optimization to solve problems: for exampl
 
 ### T2: Recent Advances in Bayesian Optimization
 
-By  **Vu Nguyen**, University of Oxford | Date: **TBD** | [Tutorial Website](http://vu-nguyen.org/BOTutorial_ACML20.html)
+By  **Vu Nguyen**, University of Oxford | <LinkWithPathPrefix text="Video" href="pathPrefix::/video/tutorial/vu-nguyen"/> | [Tutorial Website](http://vu-nguyen.org/BOTutorial_ACML20.html)
 
 <details>
     <summary>Abstract</summary>
@@ -28,7 +30,7 @@ Bayesian optimization (BO) has emerged as an exciting sub-field of machine learn
 
 ### T3: Towards Neural Architecture Search: Challenges and Solutions
 
-By  **Xiaojun Chang**, Monash University | Date: **TBD** | [Tutorial Website](https://www.xiaojun.ai/nas-tutorial-acml2020)
+By  **Xiaojun Chang**, Monash University | <LinkWithPathPrefix text="Video (in prepration)" href="pathPrefix::/video/tutorial/missigh"/> | [Tutorial Website](https://www.xiaojun.ai/nas-tutorial-acml2020)
 
 <details>
     <summary>Abstract</summary>
@@ -37,7 +39,7 @@ By  **Xiaojun Chang**, Monash University | Date: **TBD** | [Tutorial Website](ht
 
 ### T4: Forecasting for Data Scientists
 
-By  **Christoph Bergmeir**, Monash University | Date: **TBD** | [Tutorial Website](https://cbergmeir.com/talks/acml-tutorial/)
+By  **Christoph Bergmeir**, Monash University | <LinkWithPathPrefix text="Video (in preparation)" href="pathPrefix::/video/tutorial/missing"/> | [Tutorial Website](https://cbergmeir.com/talks/acml-tutorial/)
 
 <details>
     <summary>Abstract</summary>
@@ -46,7 +48,7 @@ Though machine learners claim for potentially decades that their methods yield g
 
 ### T5: Tensor Networks in Machine Learning: Recent Advances and Frontiers
 
-By  **Qibin Zhao**, RIKEN AIP | Date: **TBD** | [Tutorial Website](https://qibinzhao.github.io/ACML2020_Tutorial/)
+By  **Qibin Zhao**, RIKEN AIP | <LinkWithPathPrefix text="Video" href="pathPrefix::/video/tutorial/qibin-zhao"/> | [Tutorial Website](https://qibinzhao.github.io/ACML2020_Tutorial/)
 
 <details>
     <summary>Abstract</summary>

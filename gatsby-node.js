@@ -113,8 +113,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         pdfURL: `http://proceedings.mlr.press/v129/${p.ID}/${p.ID}.pdf`,
       } :
       {
-        jmlrURL: `#jmlrURL`,
-        pdfURL: `#jmlrPDF`,
+        jmlrURL: ``,
+        pdfURL: p.url,
       }
 
     return {
@@ -123,7 +123,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       title: p.title,
       by: p.author,
       abstract: p.abstract,
-      videolectureID: ``,
+      videolectureId: p.ID,
       ...urls
     }
   }).concat(talkTutorialVideos.map(t => {
