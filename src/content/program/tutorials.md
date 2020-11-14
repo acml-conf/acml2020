@@ -30,7 +30,7 @@ Bayesian optimization (BO) has emerged as an exciting sub-field of machine learn
 
 ### T3: Towards Neural Architecture Search: Challenges and Solutions
 
-By  **Xiaojun Chang**, Monash University | <LinkWithPathPrefix text="Video (missing)" href="pathPrefix::/video/tutorial/missigh"/> | [Tutorial Website](https://www.xiaojun.ai/nas-tutorial-acml2020)
+By  **Xiaojun Chang**, Monash University | <LinkWithPathPrefix text="Video (in prepration)" href="pathPrefix::/video/tutorial/missigh"/> | [Tutorial Website](https://www.xiaojun.ai/nas-tutorial-acml2020)
 
 <details>
     <summary>Abstract</summary>
@@ -39,7 +39,7 @@ By  **Xiaojun Chang**, Monash University | <LinkWithPathPrefix text="Video (miss
 
 ### T4: Forecasting for Data Scientists
 
-By  **Christoph Bergmeir**, Monash University | <LinkWithPathPrefix text="Video (missing)" href="pathPrefix::/video/tutorial/missing"/> | [Tutorial Website](https://cbergmeir.com/talks/acml-tutorial/)
+By  **Christoph Bergmeir**, Monash University | <LinkWithPathPrefix text="Video (in preparation)" href="pathPrefix::/video/tutorial/missing"/> | [Tutorial Website](https://cbergmeir.com/talks/acml-tutorial/)
 
 <details>
     <summary>Abstract</summary>
