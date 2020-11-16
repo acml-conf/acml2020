@@ -22,7 +22,7 @@
     },
     {
         "type": "tutorial",
-        "videolectureId": "",
+        "videolectureId": "bergmeir20a",
         "title": "Machine Learning methods for time series forecasting",
         "abstract": "Though machine learners claim for potentially decades that their methods yield great performance for time series forecasting, until recently machine learning methods were not able to outperform even simple benchmarks in forecasting competitions, and did not play a role in practical applications. This has changed in the last 3-4 years, with methods being able to win several prestigious competitions. The models are now competitive as more series, and longer series due to higher sampling rates, are typically available. In this tutorial, we will briefly recap the history of the field of forecasting and its developments parallel to machine learning, and then discuss recent developments in the field, around learning across series, multivariate forecasting, recurrent neural networks, CNNs, and other models, and how they are now able to outperform traditional methods.",
         "by": "Christoph Bergmeir"
@@ -38,7 +38,8 @@
         "type": "invited-talk",
         "title": "Rethinking the role of optimization in learning",
         "abstract": "In this talk, I will overview recent results towards understanding how we learn large capacity machine learning models. In the modern practice of machine learning, especially deep learning, many successful models have far more trainable parameters compared to the number of training examples. Consequently, the optimization objective for training such models have multiple minimizers that perfectly fit the training data. More problematically, while some of these minimizers generalize well to new examples, most minimizers will simply overfit or memorize the training data and will perform poorly on new examples. In practice though, when such ill-posed objectives are minimized using local search algorithms like (stochastic) gradient descent ((S)GD), the \"special\" minimizers returned by these algorithms have remarkably good performance on new examples. In this talk, we will explore the role optimization algorithms like (S)GD in learning overparameterized models in simpler setting of learning linear predictors.",
-        "by": "Suriya Gunasekar"
+        "by": "Suriya Gunasekar",
+        "videolectureId": "gunasekar20a"
     },
     {
         "type": "invited-talk",

@@ -11,7 +11,7 @@ import { HamburgerButton } from 'react-hamburger-button';
 
 const menus = [
   { name: `News`, url: `/news`},
-  { name: `Program`, url: `/program/papers`},
+  { name: `Program`, url: `/program`},
 ]
 
 const HeaderLink = ({children, to, location}) => {
