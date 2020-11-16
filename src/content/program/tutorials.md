@@ -39,7 +39,7 @@ By  **Xiaojun Chang**, Monash University | <LinkWithPathPrefix text="Video (in p
 
 ### T4: Forecasting for Data Scientists
 
-By  **Christoph Bergmeir**, Monash University | <LinkWithPathPrefix text="Video (in preparation)" href="pathPrefix::/video/tutorial/missing"/> | [Tutorial Website](https://cbergmeir.com/talks/acml-tutorial/)
+By  **Christoph Bergmeir**, Monash University | <LinkWithPathPrefix text="Video" href="pathPrefix::/video/tutorial/christoph-bergmeir"/> | [Tutorial Website](https://cbergmeir.com/talks/acml-tutorial/)
 
 <details>
     <summary>Abstract</summary>
