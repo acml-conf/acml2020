@@ -41,6 +41,10 @@ const sectionMenuGroup = {
       slug: `/program/invited-speakers`
     },
     {
+      name: `Awards`,
+      slug: `/program/awards`
+    },
+    {
       name: `Tutorials`,
       slug: `/program/tutorials`
     },
