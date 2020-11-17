@@ -28,7 +28,7 @@ import LinkWithPathPrefix from "../../components/linkWithPathPrefix";
 
 Each year there is most one awardee, who must have contributed significantly to promote machine learning in the Geo-regions covered by ACML, by research and service; more details about the award at [the ACML website](http://www.acml-conf.org/Award.ashx).
 
-This years awadee is Distinguished Professor (Emeritus) **[Thomas G, Dietterich](http://web.engr.oregonstate.edu/~tgd/)** of School of Electrical Engineering and Computer Science, Oregon State University. <LinkWithPathPrefix text="Prof. Dietterich's acceptance speech" href="pathPrefix::/video/invited-talk/thomas-dietterich"/> can be found on our website.
+This years awadee is Distinguished Professor (Emeritus) **[Thomas G. Dietterich](http://web.engr.oregonstate.edu/~tgd/)** of School of Electrical Engineering and Computer Science, Oregon State University. <LinkWithPathPrefix text="Prof. Dietterich's acceptance speech" href="pathPrefix::/video/invited-talk/thomas-g.-dietterich"/> can be found on our website.
 
 <br/>
 
