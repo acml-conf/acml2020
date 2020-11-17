@@ -45,7 +45,8 @@
         "type": "invited-talk",
         "title": "Open domain dialogue response generation: models and evaluation metrics",
         "abstract": "Dialogue response generation is an important AI research topic. We are investigating this topic with the open domain perspective, meaning the topics of the dialogues are not pre-specified. I describe a new model called Variable Hierarchical User-based Conversation Model which considers the previous dialogues among users, as well as their social network connections. I then describe a new evaluation metric called Speaker Sensitive Response Evaluation Model which correlates better with human judgments. These are described in our recent EMNLP 2019 and ACL 2020 papers.",
-        "by": "Alice Oh"
+        "by": "Alice Oh",
+        "videolectureId": "oh20a"
     },
     {
         "type": "invited-talk",
@@ -62,8 +63,9 @@
     },
     {
         "type": "invited-talk",
-        "title": "Acceptance Speech for ACML Distinguished Contribution Award",
-        "abstract": "Each year there is most one awardee, who must have contributed significantly to promote machine learning in the Geo-regions covered by ACML, by research and service. This years awadee is Distinguished Professor (Emeritus) Thomas G. Dietterich of School of Electrical Engineering and Computer Science, Oregon State University.",
-        "by": "Thomas G. Dietterich"
+        "title": "Acceptance Speech for ACML Distinguished Contribution Award: Challenges for Machine Learning",
+        "abstract": "Each year there is most one awardee, who must have contributed significantly to promote machine learning in the Geo-regions covered by ACML, by research and service. This years awadee is Distinguished Professor (Emeritus) Thomas G. Dietterich of School of Electrical Engineering and Computer Science, Oregon State University. He was a founding member of the steering committee of ACML: he participated the first edition of ACML conference (2009, in Nanjing), and participated in the inaugural steering committee meeting at Nanjing during ACML 2009.",
+        "by": "Thomas G. Dietterich",
+        "videolectureId": "dietterich20a"
     }
 ]
