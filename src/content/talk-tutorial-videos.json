@@ -15,7 +15,7 @@
     },
     {
         "type": "tutorial",
-        "videolectureId": "",
+        "videolectureId": "chang20a",
         "title": "Towards Neural Architecture Search: Challenges and Solutions",
         "abstract": "In recent years, a large number of related algorithms for Neural Architecture Search (NAS) have emerged. They have made various improvements to the NAS algorithm, and the related research work is complicated and rich. In order to reduce the difficulty for beginners to conduct NAS-related research, in this tutorial, we will provide a new perspective: starting with an overview of the characteristics of the earliest NAS algorithms, summarizing the problems in these early NAS algorithms, and then giving solutions for subsequent related research work. In addition, we will conduct a detailed and comprehensive analysis, comparison and summary of these works. Finally, we will give possible future research directions",
         "by": "Xiaojun Chang"
@@ -53,7 +53,7 @@
         "title": "Neuralizing Algorithms",
         "abstract": "Most AI problems that we would like to solve are computationally intractable in the worst case. However, we are mostly interested in solving a small fraction of possible problems, those that occur in the real world. Approximation algorithms work well on some of these problems but are not tuned for the target problem distribution. Machine learning provides the tools to develop approximation algorithms that work well on problems encountered in practice, by training the algorithms on problems sampled from real world distributions. We modify known approximation algorithms and augment them with learnable components to allow learning of more powerful approximation algorithms that are then tuned to work on the target problem distribution. We demonstrate how to do this by developing Factor Graph Neural Network, a high order graph neural network based on loopy belief propagation on factor graphs and Particle Filter Recurrent Neural Network, a recurrent neural network based on particle filters. We also examine the advantages of decomposing a large problem into algorithmic components to simplify the design of a large system, while doing end-to-end learning to ensure that the entire system works well on the target problem distribution.", 
         "by": "Lee Wee Sun",
-        "videolectureId": "Lee20a"
+        "videolectureId": "lee20a"
     },
     {
         "type": "invited-talk",

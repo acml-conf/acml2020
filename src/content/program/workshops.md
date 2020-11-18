@@ -28,7 +28,7 @@ This workshop will discuss the fundamental theory of weakly-supervised represent
 
 ### W3: Machine Learning in Thailand
 
-Date: **November 18, 6:30-9:00pm**  | [Workshop Website](https://acml-conf.github.io/2020-workshop-ml-in-thailand/)
+Date: **November 18, 6:30-9:00am**  | [Workshop Website](https://acml-conf.github.io/2020-workshop-ml-in-thailand/)
 
 <br/>
 <hr/>
