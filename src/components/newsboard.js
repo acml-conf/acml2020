@@ -37,7 +37,7 @@ const news = [
   },
   {
     date: `2020/11/18`,
-    content: `The **program** is now complete with all videos available.  Welcome to the conference!`,
+    content: `The **program** is now complete with all videos available.  Welcome to the conference! Now free`,
     pin: true,
   }
 ]
