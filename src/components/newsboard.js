@@ -30,11 +30,15 @@ const news = [
   {
     date: `2020/10/22`,
     content: `ACML2020 will be free of charge for participants; paper authors please register via the link sent by email.`,
-    pin: true,
   },
   {
     date: `2020/11/16`,
     content: `We've just published all the talks including [papers](http://www.acml-conf.org/2020/program/papers), [tutorials](http://www.acml-conf.org/2020/program/tutorials), and [invited talks](http://www.acml-conf.org/2020/program/invited-speakers).`,
+  },
+  {
+    date: `2020/11/18`,
+    content: `The **program** is now complete with all videos available.  Welcome to the conference!`,
+    pin: true,
   }
 ]
 
