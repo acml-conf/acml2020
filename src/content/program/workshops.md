@@ -7,7 +7,7 @@ withSectionMenu: true
 
 ### W1: Weakly-supervised Representation Learning
 
-Date: **November 18, 8:30-11:50pm** | [Workshop Website](https://wsl-workshop.github.io/acml20.html)
+Date: **November 18, 8:30-11:15am** | [Workshop Website](https://wsl-workshop.github.io/acml20.html)
 
 <details>
     <summary>Abstract</summary>
