@@ -168,7 +168,7 @@
 	   "author":"Bowen Li, Kai Huang, Siang Chen, Dongliang Xiong, Haitian Jiang, and Luc Claesen",
 	   "title":"DFQF: Data Free Quantization-aware Fine-tuning",
 	   "ENTRYTYPE":"inproceedings",
-	   "ID":"li20b"
+	   "ID":"li20a"
 	},
 	{
 	   "pages":"305 - 320",
@@ -429,7 +429,7 @@
 	   "author":"Wenye Li",
 	   "title":"Scalable Calibration of Affinity Matrices from Incomplete Observations",
 	   "ENTRYTYPE":"inproceedings",
-	   "ID":"li20a"
+	   "ID":"li20b"
 	},
 	{
 	   "pages":"769 - 781",
